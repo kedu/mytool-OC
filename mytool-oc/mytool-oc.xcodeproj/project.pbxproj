@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188915181E5DE4200058F3A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188915171E5DE4200058F3A4 /* main.m */; };
+		1889151B1E5DE4200058F3A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889151A1E5DE4200058F3A4 /* AppDelegate.m */; };
+		188915241E5DE4200058F3A4 /* mytool_oc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 188915221E5DE4200058F3A4 /* mytool_oc.xcdatamodeld */; };
+		188915261E5DE4200058F3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188915251E5DE4200058F3A4 /* Assets.xcassets */; };
+		188915341E5DE4200058F3A4 /* mytool_ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188915331E5DE4200058F3A4 /* mytool_ocTests.m */; };
+		1889153F1E5DE4200058F3A4 /* mytool_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889153E1E5DE4200058F3A4 /* mytool_ocUITests.m */; };
+		9DD27EB5BB69C6B44A6426A8 /* libPods-mytool-oc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D50698E34E2B69F8CB2E7009 /* libPods-mytool-oc.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188915301E5DE4200058F3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1889150B1E5DE4200058F3A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188915121E5DE4200058F3A4;
+			remoteInfo = "mytool-oc";
+		};
+		1889153B1E5DE4200058F3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1889150B1E5DE4200058F3A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188915121E5DE4200058F3A4;
+			remoteInfo = "mytool-oc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		188915131E5DE4200058F3A4 /* mytool-oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mytool-oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188915171E5DE4200058F3A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188915191E5DE4200058F3A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		1889151A1E5DE4200058F3A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		188915231E5DE4200058F3A4 /* mytool_oc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mytool_oc.xcdatamodel; sourceTree = "<group>"; };
+		188915251E5DE4200058F3A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1889152A1E5DE4200058F3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1889152F1E5DE4200058F3A4 /* mytool-ocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mytool-ocTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188915331E5DE4200058F3A4 /* mytool_ocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mytool_ocTests.m; sourceTree = "<group>"; };
+		188915351E5DE4200058F3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1889153A1E5DE4200058F3A4 /* mytool-ocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mytool-ocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1889153E1E5DE4200058F3A4 /* mytool_ocUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mytool_ocUITests.m; sourceTree = "<group>"; };
+		188915401E5DE4200058F3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188915561E5DEA1A0058F3A4 /* LKBApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBApi.h; sourceTree = "<group>"; };
+		188915571E5DEDD60058F3A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1952EB64C1CE0ED94E818D98 /* Pods-mytool-oc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mytool-oc.release.xcconfig"; path = "Pods/Target Support Files/Pods-mytool-oc/Pods-mytool-oc.release.xcconfig"; sourceTree = "<group>"; };
+		CE054EE01017C42AE6A79571 /* Pods-mytool-oc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mytool-oc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mytool-oc/Pods-mytool-oc.debug.xcconfig"; sourceTree = "<group>"; };
+		D50698E34E2B69F8CB2E7009 /* libPods-mytool-oc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mytool-oc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188915101E5DE4200058F3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD27EB5BB69C6B44A6426A8 /* libPods-mytool-oc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889152C1E5DE4200058F3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188915371E5DE4200058F3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0130102FFBE98D8EE47F198E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE054EE01017C42AE6A79571 /* Pods-mytool-oc.debug.xcconfig */,
+				1952EB64C1CE0ED94E818D98 /* Pods-mytool-oc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1889150A1E5DE4200058F3A4 = {
+			isa = PBXGroup;
+			children = (
+				188915151E5DE4200058F3A4 /* mytool-oc */,
+				188915321E5DE4200058F3A4 /* mytool-ocTests */,
+				1889153D1E5DE4200058F3A4 /* mytool-ocUITests */,
+				188915141E5DE4200058F3A4 /* Products */,
+				0130102FFBE98D8EE47F198E /* Pods */,
+				A191C12E902CCB09FDC0E357 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		188915141E5DE4200058F3A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188915131E5DE4200058F3A4 /* mytool-oc.app */,
+				1889152F1E5DE4200058F3A4 /* mytool-ocTests.xctest */,
+				1889153A1E5DE4200058F3A4 /* mytool-ocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188915151E5DE4200058F3A4 /* mytool-oc */ = {
+			isa = PBXGroup;
+			children = (
+				1889154C1E5DE8280058F3A4 /* Application */,
+				1889154D1E5DE8280058F3A4 /* BaseClass */,
+				1889154E1E5DE8280058F3A4 /* Category */,
+				1889154F1E5DE8280058F3A4 /* Module */,
+				188915501E5DE8280058F3A4 /* Resources */,
+				188915511E5DE8280058F3A4 /* Runtime */,
+				188915521E5DE8280058F3A4 /* Utils */,
+				188915531E5DE8280058F3A4 /* Vendor */,
+				188915251E5DE4200058F3A4 /* Assets.xcassets */,
+				188915161E5DE4200058F3A4 /* Supporting Files */,
+			);
+			path = "mytool-oc";
+			sourceTree = "<group>";
+		};
+		188915161E5DE4200058F3A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1889152A1E5DE4200058F3A4 /* Info.plist */,
+				188915221E5DE4200058F3A4 /* mytool_oc.xcdatamodeld */,
+				188915171E5DE4200058F3A4 /* main.m */,
+				188915571E5DEDD60058F3A4 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188915321E5DE4200058F3A4 /* mytool-ocTests */ = {
+			isa = PBXGroup;
+			children = (
+				188915331E5DE4200058F3A4 /* mytool_ocTests.m */,
+				188915351E5DE4200058F3A4 /* Info.plist */,
+			);
+			path = "mytool-ocTests";
+			sourceTree = "<group>";
+		};
+		1889153D1E5DE4200058F3A4 /* mytool-ocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1889153E1E5DE4200058F3A4 /* mytool_ocUITests.m */,
+				188915401E5DE4200058F3A4 /* Info.plist */,
+			);
+			path = "mytool-ocUITests";
+			sourceTree = "<group>";
+		};
+		1889154C1E5DE8280058F3A4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				188915191E5DE4200058F3A4 /* AppDelegate.h */,
+				1889151A1E5DE4200058F3A4 /* AppDelegate.m */,
+				188915561E5DEA1A0058F3A4 /* LKBApi.h */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1889154D1E5DE8280058F3A4 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		1889154E1E5DE8280058F3A4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1889154F1E5DE8280058F3A4 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		188915501E5DE8280058F3A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		188915511E5DE8280058F3A4 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		188915521E5DE8280058F3A4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		188915531E5DE8280058F3A4 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		A191C12E902CCB09FDC0E357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D50698E34E2B69F8CB2E7009 /* libPods-mytool-oc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188915121E5DE4200058F3A4 /* mytool-oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188915431E5DE4200058F3A4 /* Build configuration list for PBXNativeTarget "mytool-oc" */;
+			buildPhases = (
+				C8118F7B7863285539B93C8C /* [CP] Check Pods Manifest.lock */,
+				1889150F1E5DE4200058F3A4 /* Sources */,
+				188915101E5DE4200058F3A4 /* Frameworks */,
+				188915111E5DE4200058F3A4 /* Resources */,
+				3972B50433F0F17FABCAF6F0 /* [CP] Embed Pods Frameworks */,
+				3DA9A5B8CD626F47893B0651 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mytool-oc";
+			productName = "mytool-oc";
+			productReference = 188915131E5DE4200058F3A4 /* mytool-oc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1889152E1E5DE4200058F3A4 /* mytool-ocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188915461E5DE4200058F3A4 /* Build configuration list for PBXNativeTarget "mytool-ocTests" */;
+			buildPhases = (
+				1889152B1E5DE4200058F3A4 /* Sources */,
+				1889152C1E5DE4200058F3A4 /* Frameworks */,
+				1889152D1E5DE4200058F3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188915311E5DE4200058F3A4 /* PBXTargetDependency */,
+			);
+			name = "mytool-ocTests";
+			productName = "mytool-ocTests";
+			productReference = 1889152F1E5DE4200058F3A4 /* mytool-ocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		188915391E5DE4200058F3A4 /* mytool-ocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188915491E5DE4200058F3A4 /* Build configuration list for PBXNativeTarget "mytool-ocUITests" */;
+			buildPhases = (
+				188915361E5DE4200058F3A4 /* Sources */,
+				188915371E5DE4200058F3A4 /* Frameworks */,
+				188915381E5DE4200058F3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1889153C1E5DE4200058F3A4 /* PBXTargetDependency */,
+			);
+			name = "mytool-ocUITests";
+			productName = "mytool-ocUITests";
+			productReference = 1889153A1E5DE4200058F3A4 /* mytool-ocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1889150B1E5DE4200058F3A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "lkb-求工作qq:1218773641";
+				TargetAttributes = {
+					188915121E5DE4200058F3A4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E54YL2T5L5;
+						ProvisioningStyle = Automatic;
+					};
+					1889152E1E5DE4200058F3A4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E54YL2T5L5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 188915121E5DE4200058F3A4;
+					};
+					188915391E5DE4200058F3A4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E54YL2T5L5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 188915121E5DE4200058F3A4;
+					};
+				};
+			};
+			buildConfigurationList = 1889150E1E5DE4200058F3A4 /* Build configuration list for PBXProject "mytool-oc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1889150A1E5DE4200058F3A4;
+			productRefGroup = 188915141E5DE4200058F3A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188915121E5DE4200058F3A4 /* mytool-oc */,
+				1889152E1E5DE4200058F3A4 /* mytool-ocTests */,
+				188915391E5DE4200058F3A4 /* mytool-ocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188915111E5DE4200058F3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188915261E5DE4200058F3A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889152D1E5DE4200058F3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188915381E5DE4200058F3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3972B50433F0F17FABCAF6F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mytool-oc/Pods-mytool-oc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DA9A5B8CD626F47893B0651 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mytool-oc/Pods-mytool-oc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8118F7B7863285539B93C8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1889150F1E5DE4200058F3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1889151B1E5DE4200058F3A4 /* AppDelegate.m in Sources */,
+				188915181E5DE4200058F3A4 /* main.m in Sources */,
+				188915241E5DE4200058F3A4 /* mytool_oc.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889152B1E5DE4200058F3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188915341E5DE4200058F3A4 /* mytool_ocTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188915361E5DE4200058F3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1889153F1E5DE4200058F3A4 /* mytool_ocUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188915311E5DE4200058F3A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188915121E5DE4200058F3A4 /* mytool-oc */;
+			targetProxy = 188915301E5DE4200058F3A4 /* PBXContainerItemProxy */;
+		};
+		1889153C1E5DE4200058F3A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188915121E5DE4200058F3A4 /* mytool-oc */;
+			targetProxy = 1889153B1E5DE4200058F3A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		188915411E5DE4200058F3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188915421E5DE4200058F3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188915441E5DE4200058F3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE054EE01017C42AE6A79571 /* Pods-mytool-oc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = E54YL2T5L5;
+				INFOPLIST_FILE = "mytool-oc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lkb.mytool-oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		188915451E5DE4200058F3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1952EB64C1CE0ED94E818D98 /* Pods-mytool-oc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = E54YL2T5L5;
+				INFOPLIST_FILE = "mytool-oc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lkb.mytool-oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		188915471E5DE4200058F3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E54YL2T5L5;
+				INFOPLIST_FILE = "mytool-ocTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lkb.mytool-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mytool-oc.app/mytool-oc";
+			};
+			name = Debug;
+		};
+		188915481E5DE4200058F3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E54YL2T5L5;
+				INFOPLIST_FILE = "mytool-ocTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lkb.mytool-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mytool-oc.app/mytool-oc";
+			};
+			name = Release;
+		};
+		1889154A1E5DE4200058F3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E54YL2T5L5;
+				INFOPLIST_FILE = "mytool-ocUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lkb.mytool-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "mytool-oc";
+			};
+			name = Debug;
+		};
+		1889154B1E5DE4200058F3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E54YL2T5L5;
+				INFOPLIST_FILE = "mytool-ocUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lkb.mytool-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "mytool-oc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1889150E1E5DE4200058F3A4 /* Build configuration list for PBXProject "mytool-oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188915411E5DE4200058F3A4 /* Debug */,
+				188915421E5DE4200058F3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188915431E5DE4200058F3A4 /* Build configuration list for PBXNativeTarget "mytool-oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188915441E5DE4200058F3A4 /* Debug */,
+				188915451E5DE4200058F3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188915461E5DE4200058F3A4 /* Build configuration list for PBXNativeTarget "mytool-ocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188915471E5DE4200058F3A4 /* Debug */,
+				188915481E5DE4200058F3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188915491E5DE4200058F3A4 /* Build configuration list for PBXNativeTarget "mytool-ocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1889154A1E5DE4200058F3A4 /* Debug */,
+				1889154B1E5DE4200058F3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		188915221E5DE4200058F3A4 /* mytool_oc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				188915231E5DE4200058F3A4 /* mytool_oc.xcdatamodel */,
+			);
+			currentVersion = 188915231E5DE4200058F3A4 /* mytool_oc.xcdatamodel */;
+			path = mytool_oc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1889150B1E5DE4200058F3A4 /* Project object */;
+}
