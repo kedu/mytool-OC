@@ -13,6 +13,8 @@
 #import "SDWebImageManager.h"
 
 
+
+
 typedef NS_ENUM(NSInteger, ModuleVCType) {
     ModuleVCHomeType=0,
     ModuleVCMapType,
@@ -47,6 +49,7 @@ typedef NS_ENUM(NSInteger, ModuleVCType) {
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     //设置窗口和根控制器
     UIWindow*window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window=window;
@@ -55,6 +58,9 @@ typedef NS_ENUM(NSInteger, ModuleVCType) {
     //网络
     [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    
+    //网络指示器
+//    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];//默认是NO.
     
     //sd加载的数据类型
     [[[SDWebImageManager sharedManager] imageDownloader] setValue:@"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" forHTTPHeaderField:@"Accept"];
@@ -65,6 +71,7 @@ typedef NS_ENUM(NSInteger, ModuleVCType) {
     
     
     TabBarController*TabVC= [[TabBarController alloc]init];
+    //UINavigationController*navVC=[[UINavigationController alloc]initWithRootViewController:TabVC];
     window.rootViewController=TabVC;
     [window makeKeyAndVisible];
 //    sleep(10);
@@ -188,5 +195,7 @@ typedef NS_ENUM(NSInteger, ModuleVCType) {
     [[UISearchBar appearance] setBackgroundImage:[UIImage imageWithColor:kColorTableSectionBg] forBarPosition:0 barMetrics:UIBarMetricsDefault];
     */
 }
+
+
 
 @end

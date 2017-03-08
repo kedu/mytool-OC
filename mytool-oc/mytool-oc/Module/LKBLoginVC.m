@@ -1,30 +1,27 @@
 //
-//  HomeVC.m
+//  LKBLoginVC.m
 //  mytool-oc
 //
 //  Created by Apple on 17/3/8.
 //  Copyright © 2017年 lkb-求工作qq:1218773641. All rights reserved.
 //
 
-#import "HomeVC.h"
+#import "LKBLoginVC.h"
 
-@interface HomeVC ()
+@interface LKBLoginVC ()
 
 @end
 
-@implementation HomeVC
+@implementation LKBLoginVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"主页";
-    self.navigationController.navigationItem.title=@"主页";
-    self.navigationController.title=@"主页";
-    
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    
+    // Dispose of any resources that can be recreated.
 }
 
 /*
