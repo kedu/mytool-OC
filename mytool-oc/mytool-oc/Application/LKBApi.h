@@ -5,6 +5,7 @@
 //  Created by Apple on 17/2/22.
 //  Copyright © 2017年 lkb-求工作qq:1218773641. All rights reserved.
 //
+//宏定义主要接口
 
 #ifndef LKBApi_h
 #define LKBApi_h

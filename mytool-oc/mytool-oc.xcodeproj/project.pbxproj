@@ -7,6 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1854397A1E6FC19A00D8BD85 /* LKBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439781E6FC19A00D8BD85 /* LKBVC.m */; };
+		1854397B1E6FC19A00D8BD85 /* LKBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439781E6FC19A00D8BD85 /* LKBVC.m */; };
+		1854397C1E6FC19A00D8BD85 /* LKBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439781E6FC19A00D8BD85 /* LKBVC.m */; };
+		1854397D1E6FC19A00D8BD85 /* LKBVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439791E6FC19A00D8BD85 /* LKBVC.xib */; };
+		1854397E1E6FC19A00D8BD85 /* LKBVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439791E6FC19A00D8BD85 /* LKBVC.xib */; };
+		1854397F1E6FC19A00D8BD85 /* LKBVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439791E6FC19A00D8BD85 /* LKBVC.xib */; };
+		185439821E6FC1AE00D8BD85 /* LKBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439811E6FC1AE00D8BD85 /* LKBView.m */; };
+		185439831E6FC1AE00D8BD85 /* LKBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439811E6FC1AE00D8BD85 /* LKBView.m */; };
+		185439841E6FC1AE00D8BD85 /* LKBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439811E6FC1AE00D8BD85 /* LKBView.m */; };
+		185439871E6FC1CD00D8BD85 /* LKBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439861E6FC1CD00D8BD85 /* LKBButton.m */; };
+		185439881E6FC1CD00D8BD85 /* LKBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439861E6FC1CD00D8BD85 /* LKBButton.m */; };
+		185439891E6FC1CD00D8BD85 /* LKBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439861E6FC1CD00D8BD85 /* LKBButton.m */; };
+		1854398C1E6FC1E800D8BD85 /* LKBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854398B1E6FC1E800D8BD85 /* LKBTextView.m */; };
+		1854398D1E6FC1E800D8BD85 /* LKBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854398B1E6FC1E800D8BD85 /* LKBTextView.m */; };
+		1854398E1E6FC1E800D8BD85 /* LKBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854398B1E6FC1E800D8BD85 /* LKBTextView.m */; };
+		185439911E6FC1FF00D8BD85 /* LKBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439901E6FC1FF00D8BD85 /* LKBTextField.m */; };
+		185439921E6FC1FF00D8BD85 /* LKBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439901E6FC1FF00D8BD85 /* LKBTextField.m */; };
+		185439931E6FC1FF00D8BD85 /* LKBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439901E6FC1FF00D8BD85 /* LKBTextField.m */; };
+		185439961E6FC21300D8BD85 /* LKBLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439951E6FC21300D8BD85 /* LKBLabel.m */; };
+		185439971E6FC21300D8BD85 /* LKBLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439951E6FC21300D8BD85 /* LKBLabel.m */; };
+		185439981E6FC21300D8BD85 /* LKBLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439951E6FC21300D8BD85 /* LKBLabel.m */; };
+		1854399B1E6FC23000D8BD85 /* LKBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854399A1E6FC22F00D8BD85 /* LKBImageView.m */; };
+		1854399C1E6FC23000D8BD85 /* LKBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854399A1E6FC22F00D8BD85 /* LKBImageView.m */; };
+		1854399D1E6FC23000D8BD85 /* LKBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854399A1E6FC22F00D8BD85 /* LKBImageView.m */; };
+		185439A61E6FC2E100D8BD85 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439A41E6FC2E100D8BD85 /* HomeVC.m */; };
+		185439A71E6FC2E100D8BD85 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439A41E6FC2E100D8BD85 /* HomeVC.m */; };
+		185439A81E6FC2E100D8BD85 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439A41E6FC2E100D8BD85 /* HomeVC.m */; };
+		185439A91E6FC2E100D8BD85 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439A51E6FC2E100D8BD85 /* HomeVC.xib */; };
+		185439AA1E6FC2E100D8BD85 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439A51E6FC2E100D8BD85 /* HomeVC.xib */; };
+		185439AB1E6FC2E100D8BD85 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439A51E6FC2E100D8BD85 /* HomeVC.xib */; };
+		185439AF1E6FC2F300D8BD85 /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439AD1E6FC2F300D8BD85 /* MapVC.m */; };
+		185439B01E6FC2F300D8BD85 /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439AD1E6FC2F300D8BD85 /* MapVC.m */; };
+		185439B11E6FC2F300D8BD85 /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439AD1E6FC2F300D8BD85 /* MapVC.m */; };
+		185439B21E6FC2F300D8BD85 /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439AE1E6FC2F300D8BD85 /* MapVC.xib */; };
+		185439B31E6FC2F300D8BD85 /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439AE1E6FC2F300D8BD85 /* MapVC.xib */; };
+		185439B41E6FC2F300D8BD85 /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439AE1E6FC2F300D8BD85 /* MapVC.xib */; };
+		185439B81E6FC30200D8BD85 /* AddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439B61E6FC30200D8BD85 /* AddVC.m */; };
+		185439B91E6FC30200D8BD85 /* AddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439B61E6FC30200D8BD85 /* AddVC.m */; };
+		185439BA1E6FC30200D8BD85 /* AddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439B61E6FC30200D8BD85 /* AddVC.m */; };
+		185439BB1E6FC30200D8BD85 /* AddVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439B71E6FC30200D8BD85 /* AddVC.xib */; };
+		185439BC1E6FC30200D8BD85 /* AddVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439B71E6FC30200D8BD85 /* AddVC.xib */; };
+		185439BD1E6FC30200D8BD85 /* AddVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439B71E6FC30200D8BD85 /* AddVC.xib */; };
+		185439C11E6FC31100D8BD85 /* LiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439BF1E6FC31100D8BD85 /* LiveVC.m */; };
+		185439C21E6FC31100D8BD85 /* LiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439BF1E6FC31100D8BD85 /* LiveVC.m */; };
+		185439C31E6FC31100D8BD85 /* LiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439BF1E6FC31100D8BD85 /* LiveVC.m */; };
+		185439C41E6FC31100D8BD85 /* LiveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439C01E6FC31100D8BD85 /* LiveVC.xib */; };
+		185439C51E6FC31100D8BD85 /* LiveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439C01E6FC31100D8BD85 /* LiveVC.xib */; };
+		185439C61E6FC31100D8BD85 /* LiveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439C01E6FC31100D8BD85 /* LiveVC.xib */; };
+		185439CA1E6FC31E00D8BD85 /* MeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439C81E6FC31E00D8BD85 /* MeVC.m */; };
+		185439CB1E6FC31E00D8BD85 /* MeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439C81E6FC31E00D8BD85 /* MeVC.m */; };
+		185439CC1E6FC31E00D8BD85 /* MeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439C81E6FC31E00D8BD85 /* MeVC.m */; };
+		185439CD1E6FC31E00D8BD85 /* MeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439C91E6FC31E00D8BD85 /* MeVC.xib */; };
+		185439CE1E6FC31E00D8BD85 /* MeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439C91E6FC31E00D8BD85 /* MeVC.xib */; };
+		185439CF1E6FC31E00D8BD85 /* MeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439C91E6FC31E00D8BD85 /* MeVC.xib */; };
+		185439D31E6FC60200D8BD85 /* LKBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439D11E6FC60200D8BD85 /* LKBTabBarController.m */; };
+		185439D41E6FC60200D8BD85 /* LKBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439D11E6FC60200D8BD85 /* LKBTabBarController.m */; };
+		185439D51E6FC60200D8BD85 /* LKBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439D11E6FC60200D8BD85 /* LKBTabBarController.m */; };
+		185439D61E6FC60200D8BD85 /* LKBTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439D21E6FC60200D8BD85 /* LKBTabBarController.xib */; };
+		185439D71E6FC60200D8BD85 /* LKBTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439D21E6FC60200D8BD85 /* LKBTabBarController.xib */; };
+		185439D81E6FC60200D8BD85 /* LKBTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439D21E6FC60200D8BD85 /* LKBTabBarController.xib */; };
+		185439DC1E6FC61B00D8BD85 /* LKBTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439DA1E6FC61B00D8BD85 /* LKBTableVC.m */; };
+		185439DD1E6FC61B00D8BD85 /* LKBTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439DA1E6FC61B00D8BD85 /* LKBTableVC.m */; };
+		185439DE1E6FC61B00D8BD85 /* LKBTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439DA1E6FC61B00D8BD85 /* LKBTableVC.m */; };
+		185439DF1E6FC61B00D8BD85 /* LKBTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439DB1E6FC61B00D8BD85 /* LKBTableVC.xib */; };
+		185439E01E6FC61B00D8BD85 /* LKBTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439DB1E6FC61B00D8BD85 /* LKBTableVC.xib */; };
+		185439E11E6FC61B00D8BD85 /* LKBTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439DB1E6FC61B00D8BD85 /* LKBTableVC.xib */; };
+		185439E51E6FC63500D8BD85 /* LKBCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439E31E6FC63500D8BD85 /* LKBCollectionVC.m */; };
+		185439E61E6FC63500D8BD85 /* LKBCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439E31E6FC63500D8BD85 /* LKBCollectionVC.m */; };
+		185439E71E6FC63500D8BD85 /* LKBCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439E31E6FC63500D8BD85 /* LKBCollectionVC.m */; };
+		185439E81E6FC63500D8BD85 /* LKBCollectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439E41E6FC63500D8BD85 /* LKBCollectionVC.xib */; };
+		185439E91E6FC63500D8BD85 /* LKBCollectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439E41E6FC63500D8BD85 /* LKBCollectionVC.xib */; };
+		185439EA1E6FC63500D8BD85 /* LKBCollectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439E41E6FC63500D8BD85 /* LKBCollectionVC.xib */; };
+		185439F01E6FC75E00D8BD85 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439EE1E6FC75E00D8BD85 /* TabBarController.m */; };
+		185439F11E6FC75E00D8BD85 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439EE1E6FC75E00D8BD85 /* TabBarController.m */; };
+		185439F21E6FC75E00D8BD85 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439EE1E6FC75E00D8BD85 /* TabBarController.m */; };
+		185439F31E6FC75E00D8BD85 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439EF1E6FC75E00D8BD85 /* TabBarController.xib */; };
+		185439F41E6FC75E00D8BD85 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439EF1E6FC75E00D8BD85 /* TabBarController.xib */; };
+		185439F51E6FC75E00D8BD85 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185439EF1E6FC75E00D8BD85 /* TabBarController.xib */; };
+		185439F81E6FC78700D8BD85 /* LKBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439F71E6FC78700D8BD85 /* LKBTabBar.m */; };
+		185439F91E6FC78700D8BD85 /* LKBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439F71E6FC78700D8BD85 /* LKBTabBar.m */; };
+		185439FA1E6FC78700D8BD85 /* LKBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 185439F71E6FC78700D8BD85 /* LKBTabBar.m */; };
+		185439FC1E6FECB200D8BD85 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185439FB1E6FECB200D8BD85 /* Launch Screen.storyboard */; };
+		185439FD1E6FECB200D8BD85 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185439FB1E6FECB200D8BD85 /* Launch Screen.storyboard */; };
+		185439FE1E6FECB200D8BD85 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185439FB1E6FECB200D8BD85 /* Launch Screen.storyboard */; };
 		188915181E5DE4200058F3A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188915171E5DE4200058F3A4 /* main.m */; };
 		1889151B1E5DE4200058F3A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889151A1E5DE4200058F3A4 /* AppDelegate.m */; };
 		188915241E5DE4200058F3A4 /* mytool_oc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 188915221E5DE4200058F3A4 /* mytool_oc.xcdatamodeld */; };
@@ -34,6 +118,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		185439771E6FC19A00D8BD85 /* LKBVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBVC.h; sourceTree = "<group>"; };
+		185439781E6FC19A00D8BD85 /* LKBVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBVC.m; sourceTree = "<group>"; };
+		185439791E6FC19A00D8BD85 /* LKBVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKBVC.xib; sourceTree = "<group>"; };
+		185439801E6FC1AE00D8BD85 /* LKBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBView.h; sourceTree = "<group>"; };
+		185439811E6FC1AE00D8BD85 /* LKBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBView.m; sourceTree = "<group>"; };
+		185439851E6FC1CD00D8BD85 /* LKBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBButton.h; sourceTree = "<group>"; };
+		185439861E6FC1CD00D8BD85 /* LKBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBButton.m; sourceTree = "<group>"; };
+		1854398A1E6FC1E800D8BD85 /* LKBTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBTextView.h; sourceTree = "<group>"; };
+		1854398B1E6FC1E800D8BD85 /* LKBTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBTextView.m; sourceTree = "<group>"; };
+		1854398F1E6FC1FF00D8BD85 /* LKBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBTextField.h; sourceTree = "<group>"; };
+		185439901E6FC1FF00D8BD85 /* LKBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBTextField.m; sourceTree = "<group>"; };
+		185439941E6FC21300D8BD85 /* LKBLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBLabel.h; sourceTree = "<group>"; };
+		185439951E6FC21300D8BD85 /* LKBLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBLabel.m; sourceTree = "<group>"; };
+		185439991E6FC22F00D8BD85 /* LKBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBImageView.h; sourceTree = "<group>"; };
+		1854399A1E6FC22F00D8BD85 /* LKBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBImageView.m; sourceTree = "<group>"; };
+		185439A31E6FC2E100D8BD85 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		185439A41E6FC2E100D8BD85 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		185439A51E6FC2E100D8BD85 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		185439AC1E6FC2F300D8BD85 /* MapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapVC.h; sourceTree = "<group>"; };
+		185439AD1E6FC2F300D8BD85 /* MapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapVC.m; sourceTree = "<group>"; };
+		185439AE1E6FC2F300D8BD85 /* MapVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
+		185439B51E6FC30200D8BD85 /* AddVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddVC.h; sourceTree = "<group>"; };
+		185439B61E6FC30200D8BD85 /* AddVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddVC.m; sourceTree = "<group>"; };
+		185439B71E6FC30200D8BD85 /* AddVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddVC.xib; sourceTree = "<group>"; };
+		185439BE1E6FC31100D8BD85 /* LiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveVC.h; sourceTree = "<group>"; };
+		185439BF1E6FC31100D8BD85 /* LiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveVC.m; sourceTree = "<group>"; };
+		185439C01E6FC31100D8BD85 /* LiveVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveVC.xib; sourceTree = "<group>"; };
+		185439C71E6FC31E00D8BD85 /* MeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeVC.h; sourceTree = "<group>"; };
+		185439C81E6FC31E00D8BD85 /* MeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeVC.m; sourceTree = "<group>"; };
+		185439C91E6FC31E00D8BD85 /* MeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeVC.xib; sourceTree = "<group>"; };
+		185439D01E6FC60200D8BD85 /* LKBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBTabBarController.h; sourceTree = "<group>"; };
+		185439D11E6FC60200D8BD85 /* LKBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBTabBarController.m; sourceTree = "<group>"; };
+		185439D21E6FC60200D8BD85 /* LKBTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKBTabBarController.xib; sourceTree = "<group>"; };
+		185439D91E6FC61B00D8BD85 /* LKBTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBTableVC.h; sourceTree = "<group>"; };
+		185439DA1E6FC61B00D8BD85 /* LKBTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBTableVC.m; sourceTree = "<group>"; };
+		185439DB1E6FC61B00D8BD85 /* LKBTableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKBTableVC.xib; sourceTree = "<group>"; };
+		185439E21E6FC63500D8BD85 /* LKBCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBCollectionVC.h; sourceTree = "<group>"; };
+		185439E31E6FC63500D8BD85 /* LKBCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBCollectionVC.m; sourceTree = "<group>"; };
+		185439E41E6FC63500D8BD85 /* LKBCollectionVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKBCollectionVC.xib; sourceTree = "<group>"; };
+		185439EB1E6FC66200D8BD85 /* LKBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBKit.h; sourceTree = "<group>"; };
+		185439ED1E6FC75E00D8BD85 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		185439EE1E6FC75E00D8BD85 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		185439EF1E6FC75E00D8BD85 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		185439F61E6FC78700D8BD85 /* LKBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBTabBar.h; sourceTree = "<group>"; };
+		185439F71E6FC78700D8BD85 /* LKBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBTabBar.m; sourceTree = "<group>"; };
+		185439FB1E6FECB200D8BD85 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		18543B211E70043800D8BD85 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		18543B221E70047F00D8BD85 /* Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Size.h; sourceTree = "<group>"; };
 		188915131E5DE4200058F3A4 /* mytool-oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mytool-oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		188915171E5DE4200058F3A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		188915191E5DE4200058F3A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +221,66 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		1854399E1E6FC26E00D8BD85 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				185439A31E6FC2E100D8BD85 /* HomeVC.h */,
+				185439A41E6FC2E100D8BD85 /* HomeVC.m */,
+				185439A51E6FC2E100D8BD85 /* HomeVC.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		1854399F1E6FC28000D8BD85 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				185439AC1E6FC2F300D8BD85 /* MapVC.h */,
+				185439AD1E6FC2F300D8BD85 /* MapVC.m */,
+				185439AE1E6FC2F300D8BD85 /* MapVC.xib */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		185439A01E6FC29000D8BD85 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				185439B51E6FC30200D8BD85 /* AddVC.h */,
+				185439B61E6FC30200D8BD85 /* AddVC.m */,
+				185439B71E6FC30200D8BD85 /* AddVC.xib */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		185439A11E6FC2AC00D8BD85 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				185439BE1E6FC31100D8BD85 /* LiveVC.h */,
+				185439BF1E6FC31100D8BD85 /* LiveVC.m */,
+				185439C01E6FC31100D8BD85 /* LiveVC.xib */,
+			);
+			name = Live;
+			sourceTree = "<group>";
+		};
+		185439A21E6FC2B600D8BD85 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				185439C71E6FC31E00D8BD85 /* MeVC.h */,
+				185439C81E6FC31E00D8BD85 /* MeVC.m */,
+				185439C91E6FC31E00D8BD85 /* MeVC.xib */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		185439EC1E6FC71600D8BD85 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				185439ED1E6FC75E00D8BD85 /* TabBarController.h */,
+				185439EE1E6FC75E00D8BD85 /* TabBarController.m */,
+				185439EF1E6FC75E00D8BD85 /* TabBarController.xib */,
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
 		1889150A1E5DE4200058F3A4 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +327,7 @@
 				188915221E5DE4200058F3A4 /* mytool_oc.xcdatamodeld */,
 				188915171E5DE4200058F3A4 /* main.m */,
 				188915571E5DEDD60058F3A4 /* PrefixHeader.pch */,
+				185439FB1E6FECB200D8BD85 /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,6 +356,8 @@
 				188915191E5DE4200058F3A4 /* AppDelegate.h */,
 				1889151A1E5DE4200058F3A4 /* AppDelegate.m */,
 				188915561E5DEA1A0058F3A4 /* LKBApi.h */,
+				18543B211E70043800D8BD85 /* Color.h */,
+				18543B221E70047F00D8BD85 /* Size.h */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -170,6 +365,33 @@
 		1889154D1E5DE8280058F3A4 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				185439EB1E6FC66200D8BD85 /* LKBKit.h */,
+				185439771E6FC19A00D8BD85 /* LKBVC.h */,
+				185439781E6FC19A00D8BD85 /* LKBVC.m */,
+				185439791E6FC19A00D8BD85 /* LKBVC.xib */,
+				185439801E6FC1AE00D8BD85 /* LKBView.h */,
+				185439811E6FC1AE00D8BD85 /* LKBView.m */,
+				185439851E6FC1CD00D8BD85 /* LKBButton.h */,
+				185439861E6FC1CD00D8BD85 /* LKBButton.m */,
+				1854398A1E6FC1E800D8BD85 /* LKBTextView.h */,
+				1854398B1E6FC1E800D8BD85 /* LKBTextView.m */,
+				1854398F1E6FC1FF00D8BD85 /* LKBTextField.h */,
+				185439901E6FC1FF00D8BD85 /* LKBTextField.m */,
+				185439941E6FC21300D8BD85 /* LKBLabel.h */,
+				185439951E6FC21300D8BD85 /* LKBLabel.m */,
+				185439991E6FC22F00D8BD85 /* LKBImageView.h */,
+				1854399A1E6FC22F00D8BD85 /* LKBImageView.m */,
+				185439D01E6FC60200D8BD85 /* LKBTabBarController.h */,
+				185439D11E6FC60200D8BD85 /* LKBTabBarController.m */,
+				185439D21E6FC60200D8BD85 /* LKBTabBarController.xib */,
+				185439D91E6FC61B00D8BD85 /* LKBTableVC.h */,
+				185439DA1E6FC61B00D8BD85 /* LKBTableVC.m */,
+				185439DB1E6FC61B00D8BD85 /* LKBTableVC.xib */,
+				185439E21E6FC63500D8BD85 /* LKBCollectionVC.h */,
+				185439E31E6FC63500D8BD85 /* LKBCollectionVC.m */,
+				185439E41E6FC63500D8BD85 /* LKBCollectionVC.xib */,
+				185439F61E6FC78700D8BD85 /* LKBTabBar.h */,
+				185439F71E6FC78700D8BD85 /* LKBTabBar.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -184,6 +406,12 @@
 		1889154F1E5DE8280058F3A4 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				185439EC1E6FC71600D8BD85 /* TabBarController */,
+				185439A21E6FC2B600D8BD85 /* Me */,
+				185439A11E6FC2AC00D8BD85 /* Live */,
+				185439A01E6FC29000D8BD85 /* Add */,
+				1854399F1E6FC28000D8BD85 /* Map */,
+				1854399E1E6FC26E00D8BD85 /* Home */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -289,13 +517,13 @@
 		1889150B1E5DE4200058F3A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LKB;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "lkb-求工作qq:1218773641";
 				TargetAttributes = {
 					188915121E5DE4200058F3A4 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = E54YL2T5L5;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					1889152E1E5DE4200058F3A4 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -336,6 +564,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1854397D1E6FC19A00D8BD85 /* LKBVC.xib in Resources */,
+				185439F31E6FC75E00D8BD85 /* TabBarController.xib in Resources */,
+				185439D61E6FC60200D8BD85 /* LKBTabBarController.xib in Resources */,
+				185439BB1E6FC30200D8BD85 /* AddVC.xib in Resources */,
+				185439C41E6FC31100D8BD85 /* LiveVC.xib in Resources */,
+				185439DF1E6FC61B00D8BD85 /* LKBTableVC.xib in Resources */,
+				185439FC1E6FECB200D8BD85 /* Launch Screen.storyboard in Resources */,
+				185439CD1E6FC31E00D8BD85 /* MeVC.xib in Resources */,
+				185439B21E6FC2F300D8BD85 /* MapVC.xib in Resources */,
+				185439A91E6FC2E100D8BD85 /* HomeVC.xib in Resources */,
+				185439E81E6FC63500D8BD85 /* LKBCollectionVC.xib in Resources */,
 				188915261E5DE4200058F3A4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +583,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185439BC1E6FC30200D8BD85 /* AddVC.xib in Resources */,
+				185439E01E6FC61B00D8BD85 /* LKBTableVC.xib in Resources */,
+				1854397E1E6FC19A00D8BD85 /* LKBVC.xib in Resources */,
+				185439D71E6FC60200D8BD85 /* LKBTabBarController.xib in Resources */,
+				185439B31E6FC2F300D8BD85 /* MapVC.xib in Resources */,
+				185439C51E6FC31100D8BD85 /* LiveVC.xib in Resources */,
+				185439FD1E6FECB200D8BD85 /* Launch Screen.storyboard in Resources */,
+				185439CE1E6FC31E00D8BD85 /* MeVC.xib in Resources */,
+				185439F41E6FC75E00D8BD85 /* TabBarController.xib in Resources */,
+				185439AA1E6FC2E100D8BD85 /* HomeVC.xib in Resources */,
+				185439E91E6FC63500D8BD85 /* LKBCollectionVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +601,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185439BD1E6FC30200D8BD85 /* AddVC.xib in Resources */,
+				185439E11E6FC61B00D8BD85 /* LKBTableVC.xib in Resources */,
+				1854397F1E6FC19A00D8BD85 /* LKBVC.xib in Resources */,
+				185439D81E6FC60200D8BD85 /* LKBTabBarController.xib in Resources */,
+				185439B41E6FC2F300D8BD85 /* MapVC.xib in Resources */,
+				185439C61E6FC31100D8BD85 /* LiveVC.xib in Resources */,
+				185439FE1E6FECB200D8BD85 /* Launch Screen.storyboard in Resources */,
+				185439CF1E6FC31E00D8BD85 /* MeVC.xib in Resources */,
+				185439F51E6FC75E00D8BD85 /* TabBarController.xib in Resources */,
+				185439AB1E6FC2E100D8BD85 /* HomeVC.xib in Resources */,
+				185439EA1E6FC63500D8BD85 /* LKBCollectionVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,9 +670,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1854397A1E6FC19A00D8BD85 /* LKBVC.m in Sources */,
+				185439871E6FC1CD00D8BD85 /* LKBButton.m in Sources */,
 				1889151B1E5DE4200058F3A4 /* AppDelegate.m in Sources */,
+				185439F01E6FC75E00D8BD85 /* TabBarController.m in Sources */,
+				185439911E6FC1FF00D8BD85 /* LKBTextField.m in Sources */,
 				188915181E5DE4200058F3A4 /* main.m in Sources */,
+				185439B81E6FC30200D8BD85 /* AddVC.m in Sources */,
+				185439F81E6FC78700D8BD85 /* LKBTabBar.m in Sources */,
+				185439E51E6FC63500D8BD85 /* LKBCollectionVC.m in Sources */,
+				1854398C1E6FC1E800D8BD85 /* LKBTextView.m in Sources */,
+				185439A61E6FC2E100D8BD85 /* HomeVC.m in Sources */,
+				185439C11E6FC31100D8BD85 /* LiveVC.m in Sources */,
+				185439D31E6FC60200D8BD85 /* LKBTabBarController.m in Sources */,
+				185439821E6FC1AE00D8BD85 /* LKBView.m in Sources */,
+				185439CA1E6FC31E00D8BD85 /* MeVC.m in Sources */,
 				188915241E5DE4200058F3A4 /* mytool_oc.xcdatamodeld in Sources */,
+				185439AF1E6FC2F300D8BD85 /* MapVC.m in Sources */,
+				1854399B1E6FC23000D8BD85 /* LKBImageView.m in Sources */,
+				185439961E6FC21300D8BD85 /* LKBLabel.m in Sources */,
+				185439DC1E6FC61B00D8BD85 /* LKBTableVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +697,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185439CB1E6FC31E00D8BD85 /* MeVC.m in Sources */,
+				185439C21E6FC31100D8BD85 /* LiveVC.m in Sources */,
+				1854399C1E6FC23000D8BD85 /* LKBImageView.m in Sources */,
+				1854397B1E6FC19A00D8BD85 /* LKBVC.m in Sources */,
+				185439921E6FC1FF00D8BD85 /* LKBTextField.m in Sources */,
+				185439D41E6FC60200D8BD85 /* LKBTabBarController.m in Sources */,
+				185439A71E6FC2E100D8BD85 /* HomeVC.m in Sources */,
+				1854398D1E6FC1E800D8BD85 /* LKBTextView.m in Sources */,
+				185439831E6FC1AE00D8BD85 /* LKBView.m in Sources */,
 				188915341E5DE4200058F3A4 /* mytool_ocTests.m in Sources */,
+				185439E61E6FC63500D8BD85 /* LKBCollectionVC.m in Sources */,
+				185439881E6FC1CD00D8BD85 /* LKBButton.m in Sources */,
+				185439971E6FC21300D8BD85 /* LKBLabel.m in Sources */,
+				185439B91E6FC30200D8BD85 /* AddVC.m in Sources */,
+				185439F11E6FC75E00D8BD85 /* TabBarController.m in Sources */,
+				185439B01E6FC2F300D8BD85 /* MapVC.m in Sources */,
+				185439DD1E6FC61B00D8BD85 /* LKBTableVC.m in Sources */,
+				185439F91E6FC78700D8BD85 /* LKBTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +722,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185439CC1E6FC31E00D8BD85 /* MeVC.m in Sources */,
+				185439C31E6FC31100D8BD85 /* LiveVC.m in Sources */,
+				1854399D1E6FC23000D8BD85 /* LKBImageView.m in Sources */,
+				1854397C1E6FC19A00D8BD85 /* LKBVC.m in Sources */,
+				185439931E6FC1FF00D8BD85 /* LKBTextField.m in Sources */,
+				185439D51E6FC60200D8BD85 /* LKBTabBarController.m in Sources */,
+				185439A81E6FC2E100D8BD85 /* HomeVC.m in Sources */,
+				1854398E1E6FC1E800D8BD85 /* LKBTextView.m in Sources */,
+				185439841E6FC1AE00D8BD85 /* LKBView.m in Sources */,
 				1889153F1E5DE4200058F3A4 /* mytool_ocUITests.m in Sources */,
+				185439E71E6FC63500D8BD85 /* LKBCollectionVC.m in Sources */,
+				185439891E6FC1CD00D8BD85 /* LKBButton.m in Sources */,
+				185439981E6FC21300D8BD85 /* LKBLabel.m in Sources */,
+				185439BA1E6FC30200D8BD85 /* AddVC.m in Sources */,
+				185439F21E6FC75E00D8BD85 /* TabBarController.m in Sources */,
+				185439B11E6FC2F300D8BD85 /* MapVC.m in Sources */,
+				185439DE1E6FC61B00D8BD85 /* LKBTableVC.m in Sources */,
+				185439FA1E6FC78700D8BD85 /* LKBTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,8 +854,9 @@
 			baseConfigurationReference = CE054EE01017C42AE6A79571 /* Pods-mytool-oc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = E54YL2T5L5;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/mytool-oc//PrefixHeader.pch";
 				INFOPLIST_FILE = "mytool-oc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -557,8 +870,9 @@
 			baseConfigurationReference = 1952EB64C1CE0ED94E818D98 /* Pods-mytool-oc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = E54YL2T5L5;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/mytool-oc//PrefixHeader.pch";
 				INFOPLIST_FILE = "mytool-oc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -12,7 +12,7 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-
+#define myName @"lkb"
 
 
 

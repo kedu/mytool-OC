@@ -7,8 +7,24 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarController.h"
+#import "AFNetworking.h"
+#import "AFNetworkActivityIndicatorManager.h"
+#import "SDWebImageManager.h"
+
+
+typedef NS_ENUM(NSInteger, ModuleVCType) {
+    ModuleVCHomeType=0,
+    ModuleVCMapType,
+    ModuleVCAddType,
+    ModuleVCLiveType,
+    ModuleVCMeType
+};
+
 
 @interface AppDelegate ()
+
+
 
 @end
 
@@ -22,17 +38,57 @@
 //5.自己,提供注册登录功能.修改密码.提交反馈信息.查看日记.
 //极光推送,mop短信验证,友盟登录,分享,ping++支付.
 //需要引入jspatch,和react.
-
+//热更新被封
 
 //swift我还是要先学习,再上手.
+
+
+
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //设置窗口和根控制器
     UIWindow*window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window=window;
-    UITabBarController*TabVC= [[UITabBarController alloc]init];
+    self.window.backgroundColor=[UIColor whiteColor];
+    
+    //网络
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    
+    //sd加载的数据类型
+    [[[SDWebImageManager sharedManager] imageDownloader] setValue:@"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" forHTTPHeaderField:@"Accept"];
+    
+    //设置导航条样式
+    [self customizeInterface];
+    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+    
+    
+    TabBarController*TabVC= [[TabBarController alloc]init];
     window.rootViewController=TabVC;
     [window makeKeyAndVisible];
+//    sleep(10);
+//    五个控制器,五个图片加文字
+    /*
+     //判断是否登录,展示不同的页面
+    if ([Login isLogin]) {
+        [self setupTabViewController];
+    }else{
+        [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+        [self setupIntroductionViewController];
+    }
+    [self.window makeKeyAndVisible];
+     //显示介绍页面
+    [FunctionIntroManager showIntroPage];
+    
+    //缓和开始页面
+    EaseStartView *startView = [EaseStartView startView];
+    @weakify(self);
+    [startView startAnimationWithCompletionBlock:^(EaseStartView *easeStartView) {
+        @strongify(self);
+        [self completionStartAnimationWithOptions:launchOptions];
+    }];
+    */
     
     
     
@@ -112,6 +168,25 @@
         NSLog(@"Unresolved error %@, %@", error, error.userInfo);
         abort();
     }
+}
+
+- (void)customizeInterface {
+    //设置Nav的背景色和title色
+   /*
+    UINavigationBar *navigationBarAppearance = [UINavigationBar appearance];
+    [navigationBarAppearance setBackgroundImage:[UIImage imageWithColor:[NSObject baseURLStrIsProduction]? kColorNavBG: kColorBrandGreen] forBarMetrics:UIBarMetricsDefault];
+    
+    [navigationBarAppearance setTintColor:kColorBrandGreen];返回按钮的箭头颜色
+    NSDictionary *textAttributes = @{
+                                     NSFontAttributeName: [UIFont systemFontOfSize:kNavTitleFontSize],
+                                     NSForegroundColorAttributeName: kColorNavTitle,
+                                     };
+    [navigationBarAppearance setTitleTextAttributes:textAttributes];
+    
+    [[UITextField appearance] setTintColor:kColorBrandGreen];设置UITextField的光标颜色
+    [[UITextView appearance] setTintColor:kColorBrandGreen];设置UITextView的光标颜色
+    [[UISearchBar appearance] setBackgroundImage:[UIImage imageWithColor:kColorTableSectionBg] forBarPosition:0 barMetrics:UIBarMetricsDefault];
+    */
 }
 
 @end
