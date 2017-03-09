@@ -48,9 +48,6 @@ typedef NS_ENUM(NSInteger, ModuleVCType) {
 //swift我还是要先学习,再上手.
 
 
-
-
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     //设置窗口和根控制器
@@ -106,9 +103,7 @@ typedef NS_ENUM(NSInteger, ModuleVCType) {
     }];
     */
     
-    
-    
-    
+       
     
     return YES;
 }
@@ -224,10 +219,10 @@ typedef NS_ENUM(NSInteger, ModuleVCType) {
     CAShapeLayer *layer = [CAShapeLayer layer];
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint:CGPointMake(size.width/2 - ww, standOutHeight)];
-    NSLog(@"ww: %f", ww);
-    NSLog(@"ww11: %f", 0.5*((radius-ww)/radius));
+   // NSLog(@"ww: %f", ww);
+    //NSLog(@"ww11: %f", 0.5*((radius-ww)/radius));
     CGFloat angleH = 0.5*((radius-standOutHeight)/radius);
-    NSLog(@"angleH：%f", angleH);
+    //NSLog(@"angleH：%f", angleH);
     CGFloat startAngle = (1+angleH)*((float)M_PI); // 开始弧度
     CGFloat endAngle = (2-angleH)*((float)M_PI);//结束弧度
     // 开始画弧：CGPointMake：弧的圆心  radius：弧半径 startAngle：开始弧度 endAngle：介绍弧度 clockwise：YES为顺时针，No为逆时针

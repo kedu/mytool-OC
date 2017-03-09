@@ -127,6 +127,9 @@
 		188915261E5DE4200058F3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188915251E5DE4200058F3A4 /* Assets.xcassets */; };
 		188915341E5DE4200058F3A4 /* mytool_ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188915331E5DE4200058F3A4 /* mytool_ocTests.m */; };
 		1889153F1E5DE4200058F3A4 /* mytool_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889153E1E5DE4200058F3A4 /* mytool_ocUITests.m */; };
+		18FF5B161E716062002A771D /* ObjcRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF5B151E716062002A771D /* ObjcRuntime.m */; };
+		18FF5B171E716062002A771D /* ObjcRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF5B151E716062002A771D /* ObjcRuntime.m */; };
+		18FF5B181E716062002A771D /* ObjcRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF5B151E716062002A771D /* ObjcRuntime.m */; };
 		9DD27EB5BB69C6B44A6426A8 /* libPods-mytool-oc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D50698E34E2B69F8CB2E7009 /* libPods-mytool-oc.a */; };
 /* End PBXBuildFile section */
 
@@ -227,6 +230,8 @@
 		188915401E5DE4200058F3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188915561E5DEA1A0058F3A4 /* LKBApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBApi.h; sourceTree = "<group>"; };
 		188915571E5DEDD60058F3A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18FF5B141E716062002A771D /* ObjcRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcRuntime.h; sourceTree = "<group>"; };
+		18FF5B151E716062002A771D /* ObjcRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcRuntime.m; sourceTree = "<group>"; };
 		1952EB64C1CE0ED94E818D98 /* Pods-mytool-oc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mytool-oc.release.xcconfig"; path = "Pods/Target Support Files/Pods-mytool-oc/Pods-mytool-oc.release.xcconfig"; sourceTree = "<group>"; };
 		CE054EE01017C42AE6A79571 /* Pods-mytool-oc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mytool-oc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mytool-oc/Pods-mytool-oc.debug.xcconfig"; sourceTree = "<group>"; };
 		D50698E34E2B69F8CB2E7009 /* libPods-mytool-oc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mytool-oc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -388,6 +393,7 @@
 			isa = PBXGroup;
 			children = (
 				1889154C1E5DE8280058F3A4 /* Application */,
+				18FF599C1E71339C002A771D /* BaseModels */,
 				1889154D1E5DE8280058F3A4 /* BaseClass */,
 				1889154E1E5DE8280058F3A4 /* Category */,
 				1889154F1E5DE8280058F3A4 /* Module */,
@@ -512,6 +518,8 @@
 		188915511E5DE8280058F3A4 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				18FF5B141E716062002A771D /* ObjcRuntime.h */,
+				18FF5B151E716062002A771D /* ObjcRuntime.m */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -528,6 +536,14 @@
 			children = (
 			);
 			path = Vendor;
+			sourceTree = "<group>";
+		};
+		18FF599C1E71339C002A771D /* BaseModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BaseModels;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		A191C12E902CCB09FDC0E357 /* Frameworks */ = {
@@ -632,6 +648,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 1889150A1E5DE4200058F3A4;
 			productRefGroup = 188915141E5DE4200058F3A4 /* Products */;
@@ -783,6 +800,7 @@
 				18543B381E702EAC00D8BD85 /* LKBLoginVC.m in Sources */,
 				185439E51E6FC63500D8BD85 /* LKBCollectionVC.m in Sources */,
 				1854398C1E6FC1E800D8BD85 /* LKBTextView.m in Sources */,
+				18FF5B161E716062002A771D /* ObjcRuntime.m in Sources */,
 				185439A61E6FC2E100D8BD85 /* HomeVC.m in Sources */,
 				185439C11E6FC31100D8BD85 /* LiveVC.m in Sources */,
 				185439D31E6FC60200D8BD85 /* LKBTabBarController.m in Sources */,
@@ -803,6 +821,7 @@
 			files = (
 				185439CB1E6FC31E00D8BD85 /* MeVC.m in Sources */,
 				18543B261E70277300D8BD85 /* OptionButton.m in Sources */,
+				18FF5B171E716062002A771D /* ObjcRuntime.m in Sources */,
 				185439C21E6FC31100D8BD85 /* LiveVC.m in Sources */,
 				1854399C1E6FC23000D8BD85 /* LKBImageView.m in Sources */,
 				1854397B1E6FC19A00D8BD85 /* LKBVC.m in Sources */,
@@ -834,6 +853,7 @@
 			files = (
 				185439CC1E6FC31E00D8BD85 /* MeVC.m in Sources */,
 				18543B271E70277300D8BD85 /* OptionButton.m in Sources */,
+				18FF5B181E716062002A771D /* ObjcRuntime.m in Sources */,
 				185439C31E6FC31100D8BD85 /* LiveVC.m in Sources */,
 				1854399D1E6FC23000D8BD85 /* LKBImageView.m in Sources */,
 				1854397C1E6FC19A00D8BD85 /* LKBVC.m in Sources */,
@@ -879,6 +899,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -927,6 +948,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -977,6 +999,11 @@
 				INFOPLIST_FILE = "mytool-oc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mytool-oc/Vendor/UMSocial_Sdk_4.3.0_Extra/SinaSSO",
+					"$(PROJECT_DIR)/mytool-oc/Vendor/XGPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lkb.mytool-oc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -994,6 +1021,11 @@
 				INFOPLIST_FILE = "mytool-oc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mytool-oc/Vendor/UMSocial_Sdk_4.3.0_Extra/SinaSSO",
+					"$(PROJECT_DIR)/mytool-oc/Vendor/XGPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lkb.mytool-oc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1006,6 +1038,11 @@
 				DEVELOPMENT_TEAM = E54YL2T5L5;
 				INFOPLIST_FILE = "mytool-ocTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mytool-oc/Vendor/UMSocial_Sdk_4.3.0_Extra/SinaSSO",
+					"$(PROJECT_DIR)/mytool-oc/Vendor/XGPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lkb.mytool-ocTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mytool-oc.app/mytool-oc";
@@ -1019,6 +1056,11 @@
 				DEVELOPMENT_TEAM = E54YL2T5L5;
 				INFOPLIST_FILE = "mytool-ocTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mytool-oc/Vendor/UMSocial_Sdk_4.3.0_Extra/SinaSSO",
+					"$(PROJECT_DIR)/mytool-oc/Vendor/XGPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lkb.mytool-ocTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mytool-oc.app/mytool-oc";
@@ -1031,6 +1073,11 @@
 				DEVELOPMENT_TEAM = E54YL2T5L5;
 				INFOPLIST_FILE = "mytool-ocUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mytool-oc/Vendor/UMSocial_Sdk_4.3.0_Extra/SinaSSO",
+					"$(PROJECT_DIR)/mytool-oc/Vendor/XGPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lkb.mytool-ocUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "mytool-oc";
@@ -1043,6 +1090,11 @@
 				DEVELOPMENT_TEAM = E54YL2T5L5;
 				INFOPLIST_FILE = "mytool-ocUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mytool-oc/Vendor/UMSocial_Sdk_4.3.0_Extra/SinaSSO",
+					"$(PROJECT_DIR)/mytool-oc/Vendor/XGPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lkb.mytool-ocUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "mytool-oc";

@@ -9,7 +9,13 @@
 #import "HomeVC.h"
 #import "SDCycleScrollView.h"
 
+#define kLoopViewHeight 200
+
 @interface HomeVC ()
+@property (weak, nonatomic) IBOutlet UIView *loopView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *loopViewHeight;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *weatherHeight;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *collectViewHeight;
 
 @end
 
@@ -21,19 +27,28 @@
     [self setLoop];
     
 }
+
 -(void)setLoop{
 
     // 本地加载图片的轮播器
 //    SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame: imagesGroup:图片数组];
-    SDCycleScrollView*cycleScrollView=[SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, self.navigationController.navigationBar.frame.size.height, [UIScreen mainScreen].bounds.size.width, 200) imageNamesGroup:@[@"1",@"2",@"3",@"4",@"5"]];
-    
+    SDCycleScrollView*cycleScrollView=[SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, kLoopViewHeight) imageNamesGroup:@[@"1",@"2",@"3",@"4",@"5"]];
+    self.loopViewHeight.constant=kLoopViewHeight;
 //    cycleScrollView.bannerImageViewContentMode=UIViewContentModeCenter;
     
     cycleScrollView.pageControlAliment = SDCycleScrollViewPageContolAlimentCenter;
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    [self.view addSubview:cycleScrollView];
+    [self.loopView addSubview:cycleScrollView];
+
+
+}
+
+
+-(void)viewWillLayoutSubviews{
+
+
 
 
 }
@@ -43,14 +58,5 @@
     
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

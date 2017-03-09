@@ -37,7 +37,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    HomeVC*homeVC=[HomeVC new];
+//    HomeVC*homeVC=[HomeVC new];
+    UIStoryboard*homeSB=[UIStoryboard storyboardWithName:@"HomeVC" bundle:nil];
+    HomeVC*homeVC=[homeSB instantiateViewControllerWithIdentifier:@"HomeSB"];
     MapVC*mapVC=[MapVC new];
     AddVC*addVC=[AddVC new];
     LiveVC*liveVC=[LiveVC new];

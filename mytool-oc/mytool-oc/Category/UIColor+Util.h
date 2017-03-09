@@ -10,8 +10,55 @@
 
 @interface UIColor (Util)
 
+/**
+ 设置颜色
+
+ @param hexValue 颜色值
+ @param alpha 透明度
+ @return 返回颜色
+ */
 + (UIColor *)colorWithHex:(int)hexValue alpha:(CGFloat)alpha;
 + (UIColor *)colorWithHex:(int)hexValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 + (UIColor *)themeColor;
 + (UIColor *)nameColor;
