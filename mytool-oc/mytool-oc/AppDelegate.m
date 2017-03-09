@@ -34,6 +34,9 @@ typedef NS_ENUM(NSInteger, ModuleVCType) {
 
 //1.有几个模块,分别是主页,就是提供每天都需要的消息.天气必须要有,调用天气局的接口,某年某月某日.点击里面有具体介绍.
 // 新闻(我要搞一个爬虫,专门抓取网易的每个大类的前5条新闻),可以收藏新闻.还有商品列表购买.
+//a.图片轮播图
+//
+
 // 2.地图出行 ,智能交互 (通过蓝牙,wifi,其他感应器控制其他设备).
 //3.日记,可以文字,图片,录音,视频.
 //4.直播..好友聊天
@@ -73,9 +76,11 @@ typedef NS_ENUM(NSInteger, ModuleVCType) {
     TabBarController*TabVC= [[TabBarController alloc]init];
     //UINavigationController*navVC=[[UINavigationController alloc]initWithRootViewController:TabVC];
     window.rootViewController=TabVC;
-    [window makeKeyAndVisible];
+    
+    [TabVC.tabBar insertSubview:[self drawTabbarBgImageView] atIndex:0];
+    TabVC.tabBar.opaque = YES;
+    
 //    sleep(10);
-//    五个控制器,五个图片加文字
     /*
      //判断是否登录,展示不同的页面
     if ([Login isLogin]) {
@@ -84,8 +89,12 @@ typedef NS_ENUM(NSInteger, ModuleVCType) {
         [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
         [self setupIntroductionViewController];
     }
+     */
+    
     [self.window makeKeyAndVisible];
-     //显示介绍页面
+    
+    /*
+    //显示介绍页面
     [FunctionIntroManager showIntroPage];
     
     //缓和开始页面
@@ -96,6 +105,8 @@ typedef NS_ENUM(NSInteger, ModuleVCType) {
         [self completionStartAnimationWithOptions:launchOptions];
     }];
     */
+    
+    
     
     
     
@@ -196,6 +207,45 @@ typedef NS_ENUM(NSInteger, ModuleVCType) {
     */
 }
 
-
+// 画背景的方法，返回 Tabbar的背景
+- (UIImageView *)drawTabbarBgImageView
+{
+    //NSLog(@"tabBarHeight：  %f" , tabBarHeight); 设备tabBar高度 一般49
+    CGFloat tabBarHeight =49;
+    CGFloat radius = 30;// 圆半径
+    CGFloat allFloat=12;
+    CGFloat ScreenW=375;
+    //(pow(radius, 2)-pow((radius-standOutHeight), 2));// standOutHeight 突出高度 12
+    CGFloat standOutHeight=12;
+    CGFloat ww = sqrtf(allFloat);
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, -standOutHeight,ScreenW , tabBarHeight +standOutHeight)];// ScreenW设备的宽
+    //    imageView.backgroundColor = [UIColor redColor];
+    CGSize size = imageView.frame.size;
+    CAShapeLayer *layer = [CAShapeLayer layer];
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    [path moveToPoint:CGPointMake(size.width/2 - ww, standOutHeight)];
+    NSLog(@"ww: %f", ww);
+    NSLog(@"ww11: %f", 0.5*((radius-ww)/radius));
+    CGFloat angleH = 0.5*((radius-standOutHeight)/radius);
+    NSLog(@"angleH：%f", angleH);
+    CGFloat startAngle = (1+angleH)*((float)M_PI); // 开始弧度
+    CGFloat endAngle = (2-angleH)*((float)M_PI);//结束弧度
+    // 开始画弧：CGPointMake：弧的圆心  radius：弧半径 startAngle：开始弧度 endAngle：介绍弧度 clockwise：YES为顺时针，No为逆时针
+    [path addArcWithCenter:CGPointMake((size.width)/2, radius) radius:radius startAngle:startAngle endAngle:endAngle clockwise:YES];
+    // 开始画弧以外的部分
+    [path addLineToPoint:CGPointMake(size.width/2+ww, standOutHeight)];
+    [path addLineToPoint:CGPointMake(size.width, standOutHeight)];
+    [path addLineToPoint:CGPointMake(size.width,size.height)];
+    [path addLineToPoint:CGPointMake(0,size.height)];
+    [path addLineToPoint:CGPointMake(0,standOutHeight)];
+    [path addLineToPoint:CGPointMake(size.width/2-ww, standOutHeight)];
+    layer.path = path.CGPath;
+    layer.fillColor = [UIColor whiteColor].CGColor;// 整个背景的颜色
+    layer.strokeColor = [UIColor colorWithWhite:0.765 alpha:1.000].CGColor;//边框线条的颜色
+    layer.lineWidth = 0.5;//边框线条的宽
+    // 在要画背景的view上 addSublayer:
+    [imageView.layer addSublayer:layer];
+    return imageView;
+}
 
 @end

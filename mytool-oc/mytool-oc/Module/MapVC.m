@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.navigationItem.title = @"地图";
 
     // Do any additional setup after loading the view from its nib.
 }

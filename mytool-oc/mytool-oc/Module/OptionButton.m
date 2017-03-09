@@ -38,6 +38,7 @@
         [self addSubview:_titleLabel];
         
         [self setLayout];
+        
     }
     
     return self;

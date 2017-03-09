@@ -3,6 +3,9 @@ platform :ios, '8.0'
 
 target 'mytool-oc' do
 pod 'AFNetworking', '~> 3.0'
-pod 'SDWebImage',   '~>4.0'
+pod 'SDWebImage',   '~>3.8'
 pod 'MBProgressHUD', '~> 1.0.0'
+pod 'SDCycleScrollView','~> 1.64'
+pod 'Masonry'
+pod 'SDAutoLayout', '~> 2.1.3'
 end

@@ -118,6 +118,9 @@
 		18543B4D1E702EF100D8BD85 /* LKBGuideVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18543B491E702EF100D8BD85 /* LKBGuideVC.xib */; };
 		18543B4E1E702EF100D8BD85 /* LKBGuideVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18543B491E702EF100D8BD85 /* LKBGuideVC.xib */; };
 		18543B4F1E702EF100D8BD85 /* LKBGuideVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18543B491E702EF100D8BD85 /* LKBGuideVC.xib */; };
+		18543B521E7058FC00D8BD85 /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18543B511E7058FC00D8BD85 /* HomeVC.storyboard */; };
+		18543B531E7058FC00D8BD85 /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18543B511E7058FC00D8BD85 /* HomeVC.storyboard */; };
+		18543B541E7058FC00D8BD85 /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18543B511E7058FC00D8BD85 /* HomeVC.storyboard */; };
 		188915181E5DE4200058F3A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188915171E5DE4200058F3A4 /* main.m */; };
 		1889151B1E5DE4200058F3A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889151A1E5DE4200058F3A4 /* AppDelegate.m */; };
 		188915241E5DE4200058F3A4 /* mytool_oc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 188915221E5DE4200058F3A4 /* mytool_oc.xcdatamodeld */; };
@@ -208,6 +211,7 @@
 		18543B471E702EF100D8BD85 /* LKBGuideVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBGuideVC.h; sourceTree = "<group>"; };
 		18543B481E702EF100D8BD85 /* LKBGuideVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBGuideVC.m; sourceTree = "<group>"; };
 		18543B491E702EF100D8BD85 /* LKBGuideVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKBGuideVC.xib; sourceTree = "<group>"; };
+		18543B511E7058FC00D8BD85 /* HomeVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeVC.storyboard; sourceTree = "<group>"; };
 		188915131E5DE4200058F3A4 /* mytool-oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mytool-oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		188915171E5DE4200058F3A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		188915191E5DE4200058F3A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -268,6 +272,7 @@
 			children = (
 				185439A31E6FC2E100D8BD85 /* HomeVC.h */,
 				185439A41E6FC2E100D8BD85 /* HomeVC.m */,
+				18543B511E7058FC00D8BD85 /* HomeVC.storyboard */,
 				185439A51E6FC2E100D8BD85 /* HomeVC.xib */,
 			);
 			name = Home;
@@ -655,6 +660,7 @@
 				185439DF1E6FC61B00D8BD85 /* LKBTableVC.xib in Resources */,
 				18543B441E702ED900D8BD85 /* LKBRegisterVC.xib in Resources */,
 				185439FC1E6FECB200D8BD85 /* Launch Screen.storyboard in Resources */,
+				18543B521E7058FC00D8BD85 /* HomeVC.storyboard in Resources */,
 				185439CD1E6FC31E00D8BD85 /* MeVC.xib in Resources */,
 				185439B21E6FC2F300D8BD85 /* MapVC.xib in Resources */,
 				185439A91E6FC2E100D8BD85 /* HomeVC.xib in Resources */,
@@ -680,6 +686,7 @@
 				185439F41E6FC75E00D8BD85 /* TabBarController.xib in Resources */,
 				185439AA1E6FC2E100D8BD85 /* HomeVC.xib in Resources */,
 				18543B451E702ED900D8BD85 /* LKBRegisterVC.xib in Resources */,
+				18543B531E7058FC00D8BD85 /* HomeVC.storyboard in Resources */,
 				185439E91E6FC63500D8BD85 /* LKBCollectionVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -701,6 +708,7 @@
 				185439F51E6FC75E00D8BD85 /* TabBarController.xib in Resources */,
 				185439AB1E6FC2E100D8BD85 /* HomeVC.xib in Resources */,
 				18543B461E702ED900D8BD85 /* LKBRegisterVC.xib in Resources */,
+				18543B541E7058FC00D8BD85 /* HomeVC.storyboard in Resources */,
 				185439EA1E6FC63500D8BD85 /* LKBCollectionVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -963,8 +971,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/mytool-oc//PrefixHeader.pch";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/mytool-oc/PrefixHeader.pch";
 				INFOPLIST_FILE = "mytool-oc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -979,8 +988,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/mytool-oc//PrefixHeader.pch";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/mytool-oc/PrefixHeader.pch";
 				INFOPLIST_FILE = "mytool-oc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1049,7 +1059,7 @@
 				188915421E5DE4200058F3A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		188915431E5DE4200058F3A4 /* Build configuration list for PBXNativeTarget "mytool-oc" */ = {
 			isa = XCConfigurationList;
@@ -1058,7 +1068,7 @@
 				188915451E5DE4200058F3A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		188915461E5DE4200058F3A4 /* Build configuration list for PBXNativeTarget "mytool-ocTests" */ = {
 			isa = XCConfigurationList;
@@ -1067,7 +1077,7 @@
 				188915481E5DE4200058F3A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		188915491E5DE4200058F3A4 /* Build configuration list for PBXNativeTarget "mytool-ocUITests" */ = {
 			isa = XCConfigurationList;
@@ -1076,7 +1086,7 @@
 				1889154B1E5DE4200058F3A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 

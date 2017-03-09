@@ -7,6 +7,7 @@
 //
 
 #import "HomeVC.h"
+#import "SDCycleScrollView.h"
 
 @interface HomeVC ()
 
@@ -17,9 +18,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"主页";
-    self.navigationController.navigationItem.title=@"主页";
-    self.navigationController.title=@"主页";
+    [self setLoop];
     
+}
+-(void)setLoop{
+
+    // 本地加载图片的轮播器
+//    SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame: imagesGroup:图片数组];
+    SDCycleScrollView*cycleScrollView=[SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, self.navigationController.navigationBar.frame.size.height, [UIScreen mainScreen].bounds.size.width, 200) imageNamesGroup:@[@"1",@"2",@"3",@"4",@"5"]];
+    
+//    cycleScrollView.bannerImageViewContentMode=UIViewContentModeCenter;
+    
+    cycleScrollView.pageControlAliment = SDCycleScrollViewPageContolAlimentCenter;
+    
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    
+    [self.view addSubview:cycleScrollView];
+
+
 }
 
 - (void)didReceiveMemoryWarning {
