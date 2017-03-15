@@ -97,7 +97,9 @@
                         <outlet property="collectViewHeight" destination="peA-b8-aEA" id="zqc-Ii-8Yv"/>
                         <outlet property="loopView" destination="7S1-Va-qo0" id="DsQ-70-yYh"/>
                         <outlet property="loopViewHeight" destination="EFI-WX-eOx" id="bPc-x0-689"/>
+                        <outlet property="newsView" destination="D0t-lC-6na" id="aeO-Rg-SHt"/>
                         <outlet property="weatherHeight" destination="qK8-ZC-TpJ" id="HKo-KA-f1h"/>
+                        <outlet property="weatherView" destination="9ZF-ey-Tge" id="FXp-N9-Kze"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d6E-HS-iOj" userLabel="First Responder" sceneMemberID="firstResponder"/>
