@@ -14,6 +14,7 @@
 @property (strong, nonatomic) IBOutlet testCell *testCell;
 
 
+@property (weak, nonatomic) IBOutlet UILabel *name;
 
 @end
 @implementation testCell
@@ -40,7 +41,7 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    
+    self.name.text=@"lkb";
     
 }
 

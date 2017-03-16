@@ -126,6 +126,60 @@
 		18543B521E7058FC00D8BD85 /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18543B511E7058FC00D8BD85 /* HomeVC.storyboard */; };
 		18543B531E7058FC00D8BD85 /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18543B511E7058FC00D8BD85 /* HomeVC.storyboard */; };
 		18543B541E7058FC00D8BD85 /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18543B511E7058FC00D8BD85 /* HomeVC.storyboard */; };
+		187F478D1E7A4B0C0036CE29 /* DDUserInformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F478C1E7A4B0C0036CE29 /* DDUserInformationModel.m */; };
+		187F478E1E7A4B0C0036CE29 /* DDUserInformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F478C1E7A4B0C0036CE29 /* DDUserInformationModel.m */; };
+		187F478F1E7A4B0C0036CE29 /* DDUserInformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F478C1E7A4B0C0036CE29 /* DDUserInformationModel.m */; };
+		187F47921E7A4B1E0036CE29 /* DDGetUserInformationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47911E7A4B1E0036CE29 /* DDGetUserInformationTool.m */; };
+		187F47931E7A4B1E0036CE29 /* DDGetUserInformationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47911E7A4B1E0036CE29 /* DDGetUserInformationTool.m */; };
+		187F47941E7A4B1E0036CE29 /* DDGetUserInformationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47911E7A4B1E0036CE29 /* DDGetUserInformationTool.m */; };
+		187F47BA1E7A671B0036CE29 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47981E7A671A0036CE29 /* IQNSArray+Sort.m */; };
+		187F47BB1E7A671B0036CE29 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47981E7A671A0036CE29 /* IQNSArray+Sort.m */; };
+		187F47BC1E7A671B0036CE29 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47981E7A671A0036CE29 /* IQNSArray+Sort.m */; };
+		187F47BD1E7A671B0036CE29 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F479A1E7A671A0036CE29 /* IQUIScrollView+Additions.m */; };
+		187F47BE1E7A671B0036CE29 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F479A1E7A671A0036CE29 /* IQUIScrollView+Additions.m */; };
+		187F47BF1E7A671B0036CE29 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F479A1E7A671A0036CE29 /* IQUIScrollView+Additions.m */; };
+		187F47C01E7A671B0036CE29 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F479C1E7A671A0036CE29 /* IQUITextFieldView+Additions.m */; };
+		187F47C11E7A671B0036CE29 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F479C1E7A671A0036CE29 /* IQUITextFieldView+Additions.m */; };
+		187F47C21E7A671B0036CE29 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F479C1E7A671A0036CE29 /* IQUITextFieldView+Additions.m */; };
+		187F47C31E7A671B0036CE29 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F479E1E7A671A0036CE29 /* IQUIView+Hierarchy.m */; };
+		187F47C41E7A671B0036CE29 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F479E1E7A671A0036CE29 /* IQUIView+Hierarchy.m */; };
+		187F47C51E7A671B0036CE29 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F479E1E7A671A0036CE29 /* IQUIView+Hierarchy.m */; };
+		187F47C61E7A671B0036CE29 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47A01E7A671A0036CE29 /* IQUIViewController+Additions.m */; };
+		187F47C71E7A671B0036CE29 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47A01E7A671A0036CE29 /* IQUIViewController+Additions.m */; };
+		187F47C81E7A671B0036CE29 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47A01E7A671A0036CE29 /* IQUIViewController+Additions.m */; };
+		187F47C91E7A671B0036CE29 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47A21E7A671A0036CE29 /* IQUIWindow+Hierarchy.m */; };
+		187F47CA1E7A671B0036CE29 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47A21E7A671A0036CE29 /* IQUIWindow+Hierarchy.m */; };
+		187F47CB1E7A671B0036CE29 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47A21E7A671A0036CE29 /* IQUIWindow+Hierarchy.m */; };
+		187F47CC1E7A671B0036CE29 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47A71E7A671A0036CE29 /* IQKeyboardManager.m */; };
+		187F47CD1E7A671B0036CE29 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47A71E7A671A0036CE29 /* IQKeyboardManager.m */; };
+		187F47CE1E7A671B0036CE29 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47A71E7A671A0036CE29 /* IQKeyboardManager.m */; };
+		187F47CF1E7A671B0036CE29 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47A91E7A671A0036CE29 /* IQKeyboardReturnKeyHandler.m */; };
+		187F47D01E7A671B0036CE29 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47A91E7A671A0036CE29 /* IQKeyboardReturnKeyHandler.m */; };
+		187F47D11E7A671B0036CE29 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47A91E7A671A0036CE29 /* IQKeyboardReturnKeyHandler.m */; };
+		187F47D21E7A671B0036CE29 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47AC1E7A671A0036CE29 /* IQTextView.m */; };
+		187F47D31E7A671B0036CE29 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47AC1E7A671A0036CE29 /* IQTextView.m */; };
+		187F47D41E7A671B0036CE29 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47AC1E7A671A0036CE29 /* IQTextView.m */; };
+		187F47D51E7A671B0036CE29 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47AF1E7A671A0036CE29 /* IQBarButtonItem.m */; };
+		187F47D61E7A671B0036CE29 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47AF1E7A671A0036CE29 /* IQBarButtonItem.m */; };
+		187F47D71E7A671B0036CE29 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47AF1E7A671A0036CE29 /* IQBarButtonItem.m */; };
+		187F47D81E7A671B0036CE29 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47B11E7A671A0036CE29 /* IQPreviousNextView.m */; };
+		187F47D91E7A671B0036CE29 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47B11E7A671A0036CE29 /* IQPreviousNextView.m */; };
+		187F47DA1E7A671B0036CE29 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47B11E7A671A0036CE29 /* IQPreviousNextView.m */; };
+		187F47DB1E7A671B0036CE29 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47B31E7A671A0036CE29 /* IQTitleBarButtonItem.m */; };
+		187F47DC1E7A671B0036CE29 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47B31E7A671A0036CE29 /* IQTitleBarButtonItem.m */; };
+		187F47DD1E7A671B0036CE29 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47B31E7A671A0036CE29 /* IQTitleBarButtonItem.m */; };
+		187F47DE1E7A671B0036CE29 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47B51E7A671A0036CE29 /* IQToolbar.m */; };
+		187F47DF1E7A671B0036CE29 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47B51E7A671A0036CE29 /* IQToolbar.m */; };
+		187F47E01E7A671B0036CE29 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47B51E7A671A0036CE29 /* IQToolbar.m */; };
+		187F47E11E7A671B0036CE29 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47B71E7A671A0036CE29 /* IQUIView+IQKeyboardToolbar.m */; };
+		187F47E21E7A671B0036CE29 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47B71E7A671A0036CE29 /* IQUIView+IQKeyboardToolbar.m */; };
+		187F47E31E7A671B0036CE29 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47B71E7A671A0036CE29 /* IQUIView+IQKeyboardToolbar.m */; };
+		187F47E41E7A671B0036CE29 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 187F47B91E7A671B0036CE29 /* IQKeyboardManager.bundle */; };
+		187F47E51E7A671B0036CE29 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 187F47B91E7A671B0036CE29 /* IQKeyboardManager.bundle */; };
+		187F47E61E7A671B0036CE29 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 187F47B91E7A671B0036CE29 /* IQKeyboardManager.bundle */; };
+		187F47E91E7ABDE70036CE29 /* NSString+num.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47E81E7ABDE70036CE29 /* NSString+num.m */; };
+		187F47EA1E7ABDE70036CE29 /* NSString+num.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47E81E7ABDE70036CE29 /* NSString+num.m */; };
+		187F47EB1E7ABDE70036CE29 /* NSString+num.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F47E81E7ABDE70036CE29 /* NSString+num.m */; };
 		188915181E5DE4200058F3A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188915171E5DE4200058F3A4 /* main.m */; };
 		1889151B1E5DE4200058F3A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889151A1E5DE4200058F3A4 /* AppDelegate.m */; };
 		188915241E5DE4200058F3A4 /* mytool_oc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 188915221E5DE4200058F3A4 /* mytool_oc.xcdatamodeld */; };
@@ -150,6 +204,45 @@
 		189039C91E7981980098C7C2 /* newsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 189039C81E7981980098C7C2 /* newsCell.m */; };
 		189039CA1E7981980098C7C2 /* newsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 189039C81E7981980098C7C2 /* newsCell.m */; };
 		189039CB1E7981980098C7C2 /* newsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 189039C81E7981980098C7C2 /* newsCell.m */; };
+		18903A1E1E7A32030098C7C2 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A0B1E7A32030098C7C2 /* MJExtensionConst.m */; };
+		18903A1F1E7A32030098C7C2 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A0B1E7A32030098C7C2 /* MJExtensionConst.m */; };
+		18903A201E7A32030098C7C2 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A0B1E7A32030098C7C2 /* MJExtensionConst.m */; };
+		18903A211E7A32030098C7C2 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A0D1E7A32030098C7C2 /* MJFoundation.m */; };
+		18903A221E7A32030098C7C2 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A0D1E7A32030098C7C2 /* MJFoundation.m */; };
+		18903A231E7A32030098C7C2 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A0D1E7A32030098C7C2 /* MJFoundation.m */; };
+		18903A241E7A32030098C7C2 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A0F1E7A32030098C7C2 /* MJProperty.m */; };
+		18903A251E7A32030098C7C2 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A0F1E7A32030098C7C2 /* MJProperty.m */; };
+		18903A261E7A32030098C7C2 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A0F1E7A32030098C7C2 /* MJProperty.m */; };
+		18903A271E7A32030098C7C2 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A111E7A32030098C7C2 /* MJPropertyKey.m */; };
+		18903A281E7A32030098C7C2 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A111E7A32030098C7C2 /* MJPropertyKey.m */; };
+		18903A291E7A32030098C7C2 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A111E7A32030098C7C2 /* MJPropertyKey.m */; };
+		18903A2A1E7A32030098C7C2 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A131E7A32030098C7C2 /* MJPropertyType.m */; };
+		18903A2B1E7A32030098C7C2 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A131E7A32030098C7C2 /* MJPropertyType.m */; };
+		18903A2C1E7A32030098C7C2 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A131E7A32030098C7C2 /* MJPropertyType.m */; };
+		18903A2D1E7A32030098C7C2 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A151E7A32030098C7C2 /* NSObject+MJClass.m */; };
+		18903A2E1E7A32030098C7C2 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A151E7A32030098C7C2 /* NSObject+MJClass.m */; };
+		18903A2F1E7A32030098C7C2 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A151E7A32030098C7C2 /* NSObject+MJClass.m */; };
+		18903A301E7A32030098C7C2 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A171E7A32030098C7C2 /* NSObject+MJCoding.m */; };
+		18903A311E7A32030098C7C2 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A171E7A32030098C7C2 /* NSObject+MJCoding.m */; };
+		18903A321E7A32030098C7C2 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A171E7A32030098C7C2 /* NSObject+MJCoding.m */; };
+		18903A331E7A32030098C7C2 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A191E7A32030098C7C2 /* NSObject+MJKeyValue.m */; };
+		18903A341E7A32030098C7C2 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A191E7A32030098C7C2 /* NSObject+MJKeyValue.m */; };
+		18903A351E7A32030098C7C2 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A191E7A32030098C7C2 /* NSObject+MJKeyValue.m */; };
+		18903A361E7A32030098C7C2 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A1B1E7A32030098C7C2 /* NSObject+MJProperty.m */; };
+		18903A371E7A32030098C7C2 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A1B1E7A32030098C7C2 /* NSObject+MJProperty.m */; };
+		18903A381E7A32030098C7C2 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A1B1E7A32030098C7C2 /* NSObject+MJProperty.m */; };
+		18903A391E7A32030098C7C2 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A1D1E7A32030098C7C2 /* NSString+MJExtension.m */; };
+		18903A3A1E7A32030098C7C2 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A1D1E7A32030098C7C2 /* NSString+MJExtension.m */; };
+		18903A3B1E7A32030098C7C2 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A1D1E7A32030098C7C2 /* NSString+MJExtension.m */; };
+		18903A3E1E7A343F0098C7C2 /* weatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A3D1E7A343F0098C7C2 /* weatherModel.m */; };
+		18903A3F1E7A343F0098C7C2 /* weatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A3D1E7A343F0098C7C2 /* weatherModel.m */; };
+		18903A401E7A343F0098C7C2 /* weatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A3D1E7A343F0098C7C2 /* weatherModel.m */; };
+		18903A481E7A35430098C7C2 /* yesterdayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A471E7A35430098C7C2 /* yesterdayModel.m */; };
+		18903A491E7A35430098C7C2 /* yesterdayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A471E7A35430098C7C2 /* yesterdayModel.m */; };
+		18903A4A1E7A35430098C7C2 /* yesterdayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A471E7A35430098C7C2 /* yesterdayModel.m */; };
+		18903A4D1E7A355F0098C7C2 /* forecastModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A4C1E7A355F0098C7C2 /* forecastModel.m */; };
+		18903A4E1E7A355F0098C7C2 /* forecastModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A4C1E7A355F0098C7C2 /* forecastModel.m */; };
+		18903A4F1E7A355F0098C7C2 /* forecastModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18903A4C1E7A355F0098C7C2 /* forecastModel.m */; };
 		18FF5B161E716062002A771D /* ObjcRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF5B151E716062002A771D /* ObjcRuntime.m */; };
 		18FF5B171E716062002A771D /* ObjcRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF5B151E716062002A771D /* ObjcRuntime.m */; };
 		18FF5B181E716062002A771D /* ObjcRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF5B151E716062002A771D /* ObjcRuntime.m */; };
@@ -252,6 +345,43 @@
 		18543B481E702EF100D8BD85 /* LKBGuideVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBGuideVC.m; sourceTree = "<group>"; };
 		18543B491E702EF100D8BD85 /* LKBGuideVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKBGuideVC.xib; sourceTree = "<group>"; };
 		18543B511E7058FC00D8BD85 /* HomeVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeVC.storyboard; sourceTree = "<group>"; };
+		187F478B1E7A4B0C0036CE29 /* DDUserInformationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUserInformationModel.h; sourceTree = "<group>"; };
+		187F478C1E7A4B0C0036CE29 /* DDUserInformationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUserInformationModel.m; sourceTree = "<group>"; };
+		187F47901E7A4B1E0036CE29 /* DDGetUserInformationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGetUserInformationTool.h; sourceTree = "<group>"; };
+		187F47911E7A4B1E0036CE29 /* DDGetUserInformationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGetUserInformationTool.m; sourceTree = "<group>"; };
+		187F47971E7A671A0036CE29 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		187F47981E7A671A0036CE29 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		187F47991E7A671A0036CE29 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		187F479A1E7A671A0036CE29 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		187F479B1E7A671A0036CE29 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		187F479C1E7A671A0036CE29 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		187F479D1E7A671A0036CE29 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		187F479E1E7A671A0036CE29 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		187F479F1E7A671A0036CE29 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		187F47A01E7A671A0036CE29 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		187F47A11E7A671A0036CE29 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		187F47A21E7A671A0036CE29 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		187F47A41E7A671A0036CE29 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		187F47A51E7A671A0036CE29 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		187F47A61E7A671A0036CE29 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		187F47A71E7A671A0036CE29 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		187F47A81E7A671A0036CE29 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		187F47A91E7A671A0036CE29 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		187F47AB1E7A671A0036CE29 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		187F47AC1E7A671A0036CE29 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		187F47AE1E7A671A0036CE29 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		187F47AF1E7A671A0036CE29 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		187F47B01E7A671A0036CE29 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		187F47B11E7A671A0036CE29 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		187F47B21E7A671A0036CE29 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		187F47B31E7A671A0036CE29 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		187F47B41E7A671A0036CE29 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		187F47B51E7A671A0036CE29 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		187F47B61E7A671A0036CE29 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		187F47B71E7A671A0036CE29 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		187F47B91E7A671B0036CE29 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		187F47E71E7ABDE70036CE29 /* NSString+num.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+num.h"; sourceTree = "<group>"; };
+		187F47E81E7ABDE70036CE29 /* NSString+num.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+num.m"; sourceTree = "<group>"; };
 		188915131E5DE4200058F3A4 /* mytool-oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mytool-oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		188915171E5DE4200058F3A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		188915191E5DE4200058F3A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -276,6 +406,33 @@
 		189039C31E79818B0098C7C2 /* weatherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weatherCell.m; sourceTree = "<group>"; };
 		189039C71E7981980098C7C2 /* newsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsCell.h; sourceTree = "<group>"; };
 		189039C81E7981980098C7C2 /* newsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsCell.m; sourceTree = "<group>"; };
+		18903A091E7A32030098C7C2 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		18903A0A1E7A32030098C7C2 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		18903A0B1E7A32030098C7C2 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		18903A0C1E7A32030098C7C2 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		18903A0D1E7A32030098C7C2 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		18903A0E1E7A32030098C7C2 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		18903A0F1E7A32030098C7C2 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		18903A101E7A32030098C7C2 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		18903A111E7A32030098C7C2 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		18903A121E7A32030098C7C2 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		18903A131E7A32030098C7C2 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		18903A141E7A32030098C7C2 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		18903A151E7A32030098C7C2 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		18903A161E7A32030098C7C2 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		18903A171E7A32030098C7C2 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		18903A181E7A32030098C7C2 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		18903A191E7A32030098C7C2 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		18903A1A1E7A32030098C7C2 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		18903A1B1E7A32030098C7C2 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		18903A1C1E7A32030098C7C2 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		18903A1D1E7A32030098C7C2 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		18903A3C1E7A343F0098C7C2 /* weatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weatherModel.h; sourceTree = "<group>"; };
+		18903A3D1E7A343F0098C7C2 /* weatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weatherModel.m; sourceTree = "<group>"; };
+		18903A461E7A35430098C7C2 /* yesterdayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yesterdayModel.h; sourceTree = "<group>"; };
+		18903A471E7A35430098C7C2 /* yesterdayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yesterdayModel.m; sourceTree = "<group>"; };
+		18903A4B1E7A355F0098C7C2 /* forecastModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forecastModel.h; sourceTree = "<group>"; };
+		18903A4C1E7A355F0098C7C2 /* forecastModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = forecastModel.m; sourceTree = "<group>"; };
 		18FF5B141E716062002A771D /* ObjcRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcRuntime.h; sourceTree = "<group>"; };
 		18FF5B151E716062002A771D /* ObjcRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcRuntime.m; sourceTree = "<group>"; };
 		1952EB64C1CE0ED94E818D98 /* Pods-mytool-oc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mytool-oc.release.xcconfig"; path = "Pods/Target Support Files/Pods-mytool-oc/Pods-mytool-oc.release.xcconfig"; sourceTree = "<group>"; };
@@ -333,6 +490,12 @@
 				189039B91E7979450098C7C2 /* testCell.h */,
 				189039BA1E7979450098C7C2 /* testCell.m */,
 				189039BB1E7979450098C7C2 /* testCell.xib */,
+				18903A3C1E7A343F0098C7C2 /* weatherModel.h */,
+				18903A3D1E7A343F0098C7C2 /* weatherModel.m */,
+				18903A461E7A35430098C7C2 /* yesterdayModel.h */,
+				18903A471E7A35430098C7C2 /* yesterdayModel.m */,
+				18903A4B1E7A355F0098C7C2 /* forecastModel.h */,
+				18903A4C1E7A355F0098C7C2 /* forecastModel.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -419,6 +582,84 @@
 			children = (
 			);
 			name = CoreModel;
+			sourceTree = "<group>";
+		};
+		187F47951E7A671A0036CE29 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				187F47961E7A671A0036CE29 /* Categories */,
+				187F47A31E7A671A0036CE29 /* Constants */,
+				187F47A61E7A671A0036CE29 /* IQKeyboardManager.h */,
+				187F47A71E7A671A0036CE29 /* IQKeyboardManager.m */,
+				187F47A81E7A671A0036CE29 /* IQKeyboardReturnKeyHandler.h */,
+				187F47A91E7A671A0036CE29 /* IQKeyboardReturnKeyHandler.m */,
+				187F47AA1E7A671A0036CE29 /* IQTextView */,
+				187F47AD1E7A671A0036CE29 /* IQToolbar */,
+				187F47B81E7A671A0036CE29 /* Resources */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		187F47961E7A671A0036CE29 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				187F47971E7A671A0036CE29 /* IQNSArray+Sort.h */,
+				187F47981E7A671A0036CE29 /* IQNSArray+Sort.m */,
+				187F47991E7A671A0036CE29 /* IQUIScrollView+Additions.h */,
+				187F479A1E7A671A0036CE29 /* IQUIScrollView+Additions.m */,
+				187F479B1E7A671A0036CE29 /* IQUITextFieldView+Additions.h */,
+				187F479C1E7A671A0036CE29 /* IQUITextFieldView+Additions.m */,
+				187F479D1E7A671A0036CE29 /* IQUIView+Hierarchy.h */,
+				187F479E1E7A671A0036CE29 /* IQUIView+Hierarchy.m */,
+				187F479F1E7A671A0036CE29 /* IQUIViewController+Additions.h */,
+				187F47A01E7A671A0036CE29 /* IQUIViewController+Additions.m */,
+				187F47A11E7A671A0036CE29 /* IQUIWindow+Hierarchy.h */,
+				187F47A21E7A671A0036CE29 /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		187F47A31E7A671A0036CE29 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				187F47A41E7A671A0036CE29 /* IQKeyboardManagerConstants.h */,
+				187F47A51E7A671A0036CE29 /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		187F47AA1E7A671A0036CE29 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				187F47AB1E7A671A0036CE29 /* IQTextView.h */,
+				187F47AC1E7A671A0036CE29 /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		187F47AD1E7A671A0036CE29 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				187F47AE1E7A671A0036CE29 /* IQBarButtonItem.h */,
+				187F47AF1E7A671A0036CE29 /* IQBarButtonItem.m */,
+				187F47B01E7A671A0036CE29 /* IQPreviousNextView.h */,
+				187F47B11E7A671A0036CE29 /* IQPreviousNextView.m */,
+				187F47B21E7A671A0036CE29 /* IQTitleBarButtonItem.h */,
+				187F47B31E7A671A0036CE29 /* IQTitleBarButtonItem.m */,
+				187F47B41E7A671A0036CE29 /* IQToolbar.h */,
+				187F47B51E7A671A0036CE29 /* IQToolbar.m */,
+				187F47B61E7A671A0036CE29 /* IQUIView+IQKeyboardToolbar.h */,
+				187F47B71E7A671A0036CE29 /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		187F47B81E7A671A0036CE29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				187F47B91E7A671B0036CE29 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		1889150A1E5DE4200058F3A4 = {
@@ -548,6 +789,8 @@
 				1803DD701E7848B9006D950F /* UIImage+YJTUIImage.m */,
 				1803DD711E7848B9006D950F /* UIView+Frame.h */,
 				1803DD721E7848B9006D950F /* UIView+Frame.m */,
+				187F47E71E7ABDE70036CE29 /* NSString+num.h */,
+				187F47E81E7ABDE70036CE29 /* NSString+num.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -585,6 +828,10 @@
 		188915521E5DE8280058F3A4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				187F47901E7A4B1E0036CE29 /* DDGetUserInformationTool.h */,
+				187F47911E7A4B1E0036CE29 /* DDGetUserInformationTool.m */,
+				187F478B1E7A4B0C0036CE29 /* DDUserInformationModel.h */,
+				187F478C1E7A4B0C0036CE29 /* DDUserInformationModel.m */,
 				1803DD8D1E784A8A006D950F /* DDNetworkTool.h */,
 				1803DD8E1E784A8A006D950F /* DDNetworkTool.m */,
 				1803DD8F1E784A8A006D950F /* DDPhoneVersion.h */,
@@ -603,8 +850,38 @@
 		188915531E5DE8280058F3A4 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				187F47951E7A671A0036CE29 /* IQKeyboardManager */,
+				18903A081E7A32030098C7C2 /* MJExtension */,
 			);
 			path = Vendor;
+			sourceTree = "<group>";
+		};
+		18903A081E7A32030098C7C2 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				18903A091E7A32030098C7C2 /* MJExtension.h */,
+				18903A0A1E7A32030098C7C2 /* MJExtensionConst.h */,
+				18903A0B1E7A32030098C7C2 /* MJExtensionConst.m */,
+				18903A0C1E7A32030098C7C2 /* MJFoundation.h */,
+				18903A0D1E7A32030098C7C2 /* MJFoundation.m */,
+				18903A0E1E7A32030098C7C2 /* MJProperty.h */,
+				18903A0F1E7A32030098C7C2 /* MJProperty.m */,
+				18903A101E7A32030098C7C2 /* MJPropertyKey.h */,
+				18903A111E7A32030098C7C2 /* MJPropertyKey.m */,
+				18903A121E7A32030098C7C2 /* MJPropertyType.h */,
+				18903A131E7A32030098C7C2 /* MJPropertyType.m */,
+				18903A141E7A32030098C7C2 /* NSObject+MJClass.h */,
+				18903A151E7A32030098C7C2 /* NSObject+MJClass.m */,
+				18903A161E7A32030098C7C2 /* NSObject+MJCoding.h */,
+				18903A171E7A32030098C7C2 /* NSObject+MJCoding.m */,
+				18903A181E7A32030098C7C2 /* NSObject+MJKeyValue.h */,
+				18903A191E7A32030098C7C2 /* NSObject+MJKeyValue.m */,
+				18903A1A1E7A32030098C7C2 /* NSObject+MJProperty.h */,
+				18903A1B1E7A32030098C7C2 /* NSObject+MJProperty.m */,
+				18903A1C1E7A32030098C7C2 /* NSString+MJExtension.h */,
+				18903A1D1E7A32030098C7C2 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
 			sourceTree = "<group>";
 		};
 		18FF599C1E71339C002A771D /* BaseModels */ = {
@@ -742,6 +1019,7 @@
 				185439F31E6FC75E00D8BD85 /* TabBarController.xib in Resources */,
 				18543B4D1E702EF100D8BD85 /* LKBGuideVC.xib in Resources */,
 				185439BB1E6FC30200D8BD85 /* AddVC.xib in Resources */,
+				187F47E41E7A671B0036CE29 /* IQKeyboardManager.bundle in Resources */,
 				185439C41E6FC31100D8BD85 /* LiveVC.xib in Resources */,
 				18543B441E702ED900D8BD85 /* LKBRegisterVC.xib in Resources */,
 				189039BF1E7979450098C7C2 /* testCell.xib in Resources */,
@@ -762,6 +1040,7 @@
 				18543B4E1E702EF100D8BD85 /* LKBGuideVC.xib in Resources */,
 				18543B3C1E702EAC00D8BD85 /* LKBLoginVC.xib in Resources */,
 				185439B31E6FC2F300D8BD85 /* MapVC.xib in Resources */,
+				187F47E51E7A671B0036CE29 /* IQKeyboardManager.bundle in Resources */,
 				185439C51E6FC31100D8BD85 /* LiveVC.xib in Resources */,
 				189039B31E79457A0098C7C2 /* weatherCell.xib in Resources */,
 				189039B71E7945830098C7C2 /* newsCell.xib in Resources */,
@@ -782,6 +1061,7 @@
 				18543B4F1E702EF100D8BD85 /* LKBGuideVC.xib in Resources */,
 				18543B3D1E702EAC00D8BD85 /* LKBLoginVC.xib in Resources */,
 				185439B41E6FC2F300D8BD85 /* MapVC.xib in Resources */,
+				187F47E61E7A671B0036CE29 /* IQKeyboardManager.bundle in Resources */,
 				185439C61E6FC31100D8BD85 /* LiveVC.xib in Resources */,
 				189039B41E79457A0098C7C2 /* weatherCell.xib in Resources */,
 				189039B81E7945830098C7C2 /* newsCell.xib in Resources */,
@@ -849,45 +1129,75 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187F47C01E7A671B0036CE29 /* IQUITextFieldView+Additions.m in Sources */,
 				189039BC1E7979450098C7C2 /* testCell.m in Sources */,
+				187F47C61E7A671B0036CE29 /* IQUIViewController+Additions.m in Sources */,
 				1803DD9A1E784A8A006D950F /* MBProgressHUD+MJ.m in Sources */,
 				1854397A1E6FC19A00D8BD85 /* LKBVC.m in Sources */,
+				18903A481E7A35430098C7C2 /* yesterdayModel.m in Sources */,
 				1803DD7E1E7848B9006D950F /* UIView+Frame.m in Sources */,
 				185439871E6FC1CD00D8BD85 /* LKBButton.m in Sources */,
+				187F47D81E7A671B0036CE29 /* IQPreviousNextView.m in Sources */,
+				18903A2A1E7A32030098C7C2 /* MJPropertyType.m in Sources */,
 				1803DD781E7848B9006D950F /* UIBarButtonItem+YJTBarButtonItem.m in Sources */,
+				18903A211E7A32030098C7C2 /* MJFoundation.m in Sources */,
+				187F47BD1E7A671B0036CE29 /* IQUIScrollView+Additions.m in Sources */,
 				18543B251E70277300D8BD85 /* OptionButton.m in Sources */,
+				18903A4D1E7A355F0098C7C2 /* forecastModel.m in Sources */,
 				1889151B1E5DE4200058F3A4 /* AppDelegate.m in Sources */,
+				18903A391E7A32030098C7C2 /* NSString+MJExtension.m in Sources */,
 				185439F01E6FC75E00D8BD85 /* TabBarController.m in Sources */,
+				18903A271E7A32030098C7C2 /* MJPropertyKey.m in Sources */,
 				185439911E6FC1FF00D8BD85 /* LKBTextField.m in Sources */,
 				188915181E5DE4200058F3A4 /* main.m in Sources */,
 				1803DD751E7848B9006D950F /* NSDate+MJ.m in Sources */,
+				187F47CF1E7A671B0036CE29 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				1803DD811E7848BA006D950F /* UIView+MBP.m in Sources */,
 				18543B4A1E702EF100D8BD85 /* LKBGuideVC.m in Sources */,
 				189039C41E79818B0098C7C2 /* weatherCell.m in Sources */,
+				18903A301E7A32030098C7C2 /* NSObject+MJCoding.m in Sources */,
+				18903A2D1E7A32030098C7C2 /* NSObject+MJClass.m in Sources */,
 				185439B81E6FC30200D8BD85 /* AddVC.m in Sources */,
+				187F47C91E7A671B0036CE29 /* IQUIWindow+Hierarchy.m in Sources */,
+				18903A1E1E7A32030098C7C2 /* MJExtensionConst.m in Sources */,
+				187F47E11E7A671B0036CE29 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				187F47DB1E7A671B0036CE29 /* IQTitleBarButtonItem.m in Sources */,
 				1803DD971E784A8A006D950F /* DDPhoneVersion.m in Sources */,
+				187F47921E7A4B1E0036CE29 /* DDGetUserInformationTool.m in Sources */,
 				18543B2A1E7027B600D8BD85 /* UIView+Util.m in Sources */,
+				187F47DE1E7A671B0036CE29 /* IQToolbar.m in Sources */,
 				18543B411E702ED900D8BD85 /* LKBRegisterVC.m in Sources */,
+				187F47D21E7A671B0036CE29 /* IQTextView.m in Sources */,
+				18903A3E1E7A343F0098C7C2 /* weatherModel.m in Sources */,
 				185439F81E6FC78700D8BD85 /* LKBTabBar.m in Sources */,
 				18543B381E702EAC00D8BD85 /* LKBLoginVC.m in Sources */,
+				187F47D51E7A671B0036CE29 /* IQBarButtonItem.m in Sources */,
 				185439E51E6FC63500D8BD85 /* LKBCollectionVC.m in Sources */,
 				1854398C1E6FC1E800D8BD85 /* LKBTextView.m in Sources */,
 				189039C91E7981980098C7C2 /* newsCell.m in Sources */,
 				18FF5B161E716062002A771D /* ObjcRuntime.m in Sources */,
+				18903A361E7A32030098C7C2 /* NSObject+MJProperty.m in Sources */,
+				187F47CC1E7A671B0036CE29 /* IQKeyboardManager.m in Sources */,
 				185439A61E6FC2E100D8BD85 /* HomeVC.m in Sources */,
 				185439C11E6FC31100D8BD85 /* LiveVC.m in Sources */,
 				185439D31E6FC60200D8BD85 /* LKBTabBarController.m in Sources */,
 				1803DD961E784A8A006D950F /* DDNetworkTool.m in Sources */,
 				1803DD7B1E7848B9006D950F /* UIImage+YJTUIImage.m in Sources */,
+				187F47C31E7A671B0036CE29 /* IQUIView+Hierarchy.m in Sources */,
+				187F478D1E7A4B0C0036CE29 /* DDUserInformationModel.m in Sources */,
+				187F47E91E7ABDE70036CE29 /* NSString+num.m in Sources */,
 				185439821E6FC1AE00D8BD85 /* LKBView.m in Sources */,
 				185439CA1E6FC31E00D8BD85 /* MeVC.m in Sources */,
 				188915241E5DE4200058F3A4 /* mytool_oc.xcdatamodeld in Sources */,
 				185439AF1E6FC2F300D8BD85 /* MapVC.m in Sources */,
 				1803DD981E784A8A006D950F /* LKBAFN.m in Sources */,
+				18903A241E7A32030098C7C2 /* MJProperty.m in Sources */,
 				18543B2F1E7027C600D8BD85 /* UIColor+Util.m in Sources */,
 				1854399B1E6FC23000D8BD85 /* LKBImageView.m in Sources */,
 				185439961E6FC21300D8BD85 /* LKBLabel.m in Sources */,
 				185439DC1E6FC61B00D8BD85 /* LKBTableVC.m in Sources */,
+				18903A331E7A32030098C7C2 /* NSObject+MJKeyValue.m in Sources */,
+				187F47BA1E7A671B0036CE29 /* IQNSArray+Sort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -896,37 +1206,67 @@
 			buildActionMask = 2147483647;
 			files = (
 				185439CB1E6FC31E00D8BD85 /* MeVC.m in Sources */,
+				187F47D01E7A671B0036CE29 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				18543B261E70277300D8BD85 /* OptionButton.m in Sources */,
+				18903A1F1E7A32030098C7C2 /* MJExtensionConst.m in Sources */,
 				18FF5B171E716062002A771D /* ObjcRuntime.m in Sources */,
+				187F47C41E7A671B0036CE29 /* IQUIView+Hierarchy.m in Sources */,
+				18903A341E7A32030098C7C2 /* NSObject+MJKeyValue.m in Sources */,
+				18903A311E7A32030098C7C2 /* NSObject+MJCoding.m in Sources */,
+				18903A281E7A32030098C7C2 /* MJPropertyKey.m in Sources */,
 				1803DD7C1E7848B9006D950F /* UIImage+YJTUIImage.m in Sources */,
 				185439C21E6FC31100D8BD85 /* LiveVC.m in Sources */,
 				1854399C1E6FC23000D8BD85 /* LKBImageView.m in Sources */,
+				187F47BB1E7A671B0036CE29 /* IQNSArray+Sort.m in Sources */,
+				18903A3F1E7A343F0098C7C2 /* weatherModel.m in Sources */,
 				1854397B1E6FC19A00D8BD85 /* LKBVC.m in Sources */,
+				18903A221E7A32030098C7C2 /* MJFoundation.m in Sources */,
+				187F47D31E7A671B0036CE29 /* IQTextView.m in Sources */,
+				187F47CD1E7A671B0036CE29 /* IQKeyboardManager.m in Sources */,
 				185439921E6FC1FF00D8BD85 /* LKBTextField.m in Sources */,
+				187F47E21E7A671B0036CE29 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				187F47DF1E7A671B0036CE29 /* IQToolbar.m in Sources */,
+				187F47C71E7A671B0036CE29 /* IQUIViewController+Additions.m in Sources */,
 				189039BD1E7979450098C7C2 /* testCell.m in Sources */,
 				185439D41E6FC60200D8BD85 /* LKBTabBarController.m in Sources */,
 				18543B4B1E702EF100D8BD85 /* LKBGuideVC.m in Sources */,
 				185439A71E6FC2E100D8BD85 /* HomeVC.m in Sources */,
+				187F47CA1E7A671B0036CE29 /* IQUIWindow+Hierarchy.m in Sources */,
+				187F47DC1E7A671B0036CE29 /* IQTitleBarButtonItem.m in Sources */,
 				18543B421E702ED900D8BD85 /* LKBRegisterVC.m in Sources */,
 				1803DD761E7848B9006D950F /* NSDate+MJ.m in Sources */,
 				1854398D1E6FC1E800D8BD85 /* LKBTextView.m in Sources */,
 				1803DD821E7848BA006D950F /* UIView+MBP.m in Sources */,
 				1803DD791E7848B9006D950F /* UIBarButtonItem+YJTBarButtonItem.m in Sources */,
+				187F47C11E7A671B0036CE29 /* IQUITextFieldView+Additions.m in Sources */,
 				185439831E6FC1AE00D8BD85 /* LKBView.m in Sources */,
 				18543B391E702EAC00D8BD85 /* LKBLoginVC.m in Sources */,
+				187F478E1E7A4B0C0036CE29 /* DDUserInformationModel.m in Sources */,
 				18543B301E7027C600D8BD85 /* UIColor+Util.m in Sources */,
 				18543B2B1E7027B600D8BD85 /* UIView+Util.m in Sources */,
 				188915341E5DE4200058F3A4 /* mytool_ocTests.m in Sources */,
+				18903A3A1E7A32030098C7C2 /* NSString+MJExtension.m in Sources */,
 				185439E61E6FC63500D8BD85 /* LKBCollectionVC.m in Sources */,
 				185439881E6FC1CD00D8BD85 /* LKBButton.m in Sources */,
+				187F47D61E7A671B0036CE29 /* IQBarButtonItem.m in Sources */,
+				187F47931E7A4B1E0036CE29 /* DDGetUserInformationTool.m in Sources */,
+				18903A2E1E7A32030098C7C2 /* NSObject+MJClass.m in Sources */,
 				189039C51E79818B0098C7C2 /* weatherCell.m in Sources */,
 				185439971E6FC21300D8BD85 /* LKBLabel.m in Sources */,
 				189039CA1E7981980098C7C2 /* newsCell.m in Sources */,
 				185439B91E6FC30200D8BD85 /* AddVC.m in Sources */,
+				18903A2B1E7A32030098C7C2 /* MJPropertyType.m in Sources */,
 				1803DD7F1E7848B9006D950F /* UIView+Frame.m in Sources */,
+				187F47BE1E7A671B0036CE29 /* IQUIScrollView+Additions.m in Sources */,
+				18903A251E7A32030098C7C2 /* MJProperty.m in Sources */,
+				18903A371E7A32030098C7C2 /* NSObject+MJProperty.m in Sources */,
 				185439F11E6FC75E00D8BD85 /* TabBarController.m in Sources */,
+				187F47EA1E7ABDE70036CE29 /* NSString+num.m in Sources */,
 				185439B01E6FC2F300D8BD85 /* MapVC.m in Sources */,
+				18903A4E1E7A355F0098C7C2 /* forecastModel.m in Sources */,
+				18903A491E7A35430098C7C2 /* yesterdayModel.m in Sources */,
 				185439DD1E6FC61B00D8BD85 /* LKBTableVC.m in Sources */,
+				187F47D91E7A671B0036CE29 /* IQPreviousNextView.m in Sources */,
 				185439F91E6FC78700D8BD85 /* LKBTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -936,37 +1276,67 @@
 			buildActionMask = 2147483647;
 			files = (
 				185439CC1E6FC31E00D8BD85 /* MeVC.m in Sources */,
+				187F47D11E7A671B0036CE29 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				18543B271E70277300D8BD85 /* OptionButton.m in Sources */,
+				18903A201E7A32030098C7C2 /* MJExtensionConst.m in Sources */,
 				18FF5B181E716062002A771D /* ObjcRuntime.m in Sources */,
+				187F47C51E7A671B0036CE29 /* IQUIView+Hierarchy.m in Sources */,
+				18903A351E7A32030098C7C2 /* NSObject+MJKeyValue.m in Sources */,
+				18903A321E7A32030098C7C2 /* NSObject+MJCoding.m in Sources */,
+				18903A291E7A32030098C7C2 /* MJPropertyKey.m in Sources */,
 				1803DD7D1E7848B9006D950F /* UIImage+YJTUIImage.m in Sources */,
 				185439C31E6FC31100D8BD85 /* LiveVC.m in Sources */,
 				1854399D1E6FC23000D8BD85 /* LKBImageView.m in Sources */,
+				187F47BC1E7A671B0036CE29 /* IQNSArray+Sort.m in Sources */,
+				18903A401E7A343F0098C7C2 /* weatherModel.m in Sources */,
 				1854397C1E6FC19A00D8BD85 /* LKBVC.m in Sources */,
+				18903A231E7A32030098C7C2 /* MJFoundation.m in Sources */,
+				187F47D41E7A671B0036CE29 /* IQTextView.m in Sources */,
+				187F47CE1E7A671B0036CE29 /* IQKeyboardManager.m in Sources */,
 				185439931E6FC1FF00D8BD85 /* LKBTextField.m in Sources */,
+				187F47E31E7A671B0036CE29 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				187F47E01E7A671B0036CE29 /* IQToolbar.m in Sources */,
+				187F47C81E7A671B0036CE29 /* IQUIViewController+Additions.m in Sources */,
 				189039BE1E7979450098C7C2 /* testCell.m in Sources */,
 				185439D51E6FC60200D8BD85 /* LKBTabBarController.m in Sources */,
 				18543B4C1E702EF100D8BD85 /* LKBGuideVC.m in Sources */,
 				185439A81E6FC2E100D8BD85 /* HomeVC.m in Sources */,
+				187F47CB1E7A671B0036CE29 /* IQUIWindow+Hierarchy.m in Sources */,
+				187F47DD1E7A671B0036CE29 /* IQTitleBarButtonItem.m in Sources */,
 				18543B431E702ED900D8BD85 /* LKBRegisterVC.m in Sources */,
 				1803DD771E7848B9006D950F /* NSDate+MJ.m in Sources */,
 				1854398E1E6FC1E800D8BD85 /* LKBTextView.m in Sources */,
 				1803DD831E7848BA006D950F /* UIView+MBP.m in Sources */,
 				1803DD7A1E7848B9006D950F /* UIBarButtonItem+YJTBarButtonItem.m in Sources */,
+				187F47C21E7A671B0036CE29 /* IQUITextFieldView+Additions.m in Sources */,
 				185439841E6FC1AE00D8BD85 /* LKBView.m in Sources */,
 				18543B3A1E702EAC00D8BD85 /* LKBLoginVC.m in Sources */,
+				187F478F1E7A4B0C0036CE29 /* DDUserInformationModel.m in Sources */,
 				18543B311E7027C600D8BD85 /* UIColor+Util.m in Sources */,
 				18543B2C1E7027B600D8BD85 /* UIView+Util.m in Sources */,
 				1889153F1E5DE4200058F3A4 /* mytool_ocUITests.m in Sources */,
+				18903A3B1E7A32030098C7C2 /* NSString+MJExtension.m in Sources */,
 				185439E71E6FC63500D8BD85 /* LKBCollectionVC.m in Sources */,
 				185439891E6FC1CD00D8BD85 /* LKBButton.m in Sources */,
+				187F47D71E7A671B0036CE29 /* IQBarButtonItem.m in Sources */,
+				187F47941E7A4B1E0036CE29 /* DDGetUserInformationTool.m in Sources */,
+				18903A2F1E7A32030098C7C2 /* NSObject+MJClass.m in Sources */,
 				189039C61E79818B0098C7C2 /* weatherCell.m in Sources */,
 				185439981E6FC21300D8BD85 /* LKBLabel.m in Sources */,
 				189039CB1E7981980098C7C2 /* newsCell.m in Sources */,
 				185439BA1E6FC30200D8BD85 /* AddVC.m in Sources */,
+				18903A2C1E7A32030098C7C2 /* MJPropertyType.m in Sources */,
 				1803DD801E7848BA006D950F /* UIView+Frame.m in Sources */,
+				187F47BF1E7A671B0036CE29 /* IQUIScrollView+Additions.m in Sources */,
+				18903A261E7A32030098C7C2 /* MJProperty.m in Sources */,
+				18903A381E7A32030098C7C2 /* NSObject+MJProperty.m in Sources */,
 				185439F21E6FC75E00D8BD85 /* TabBarController.m in Sources */,
+				187F47EB1E7ABDE70036CE29 /* NSString+num.m in Sources */,
 				185439B11E6FC2F300D8BD85 /* MapVC.m in Sources */,
+				18903A4F1E7A355F0098C7C2 /* forecastModel.m in Sources */,
+				18903A4A1E7A35430098C7C2 /* yesterdayModel.m in Sources */,
 				185439DE1E6FC61B00D8BD85 /* LKBTableVC.m in Sources */,
+				187F47DA1E7A671B0036CE29 /* IQPreviousNextView.m in Sources */,
 				185439FA1E6FC78700D8BD85 /* LKBTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

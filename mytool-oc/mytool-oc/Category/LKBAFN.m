@@ -60,7 +60,7 @@
     //                    // 在这里发送网络请求
     
                         MBProgressHUD * hud = [MBProgressHUD showMessage:@"请稍候"];
-//    MBProgressHUD * hud =[MBProgressHUD showSomeThing];
+
     
     AFHTTPSessionManager *session = [AFHTTPSessionManager manager];
     
@@ -73,7 +73,7 @@
         
         for (UIView*tmpView in[view subviews]) {
             
-            //                            NSLog(@"%@",tmpView);
+            
             if ([tmpView isKindOfClass:[MBProgressHUD class]]) {
                 
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{

@@ -10,4 +10,10 @@
 
 @interface weatherCell : UITableViewCell
 
++(id)cell;
+
+
+-(void)setIsToday:(NSString*)isToday date:(NSString*)date weatherType:(NSString*)weatherType weatherData:(NSString*)weatherData;
+
+
 @end

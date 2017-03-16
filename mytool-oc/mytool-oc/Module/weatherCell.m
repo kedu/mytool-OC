@@ -7,24 +7,32 @@
 //
 
 #import "weatherCell.h"
+#import "weatherModel.h"
+
+
 @interface weatherCell()
+@property (weak, nonatomic) IBOutlet UILabel *isToday;
+@property (weak, nonatomic) IBOutlet UILabel *date;
+@property (weak, nonatomic) IBOutlet UILabel *weatherType;
+@property (weak, nonatomic) IBOutlet UILabel *weatherData;
+@property (strong, nonatomic) IBOutlet weatherCell *weatherCell;
 
-
-@property (strong, nonatomic) IBOutlet weatherCell *weatherView;
+@property(nonatomic,strong)weatherModel*WeatherModel;
 
 @end
 @implementation weatherCell
 
+-(void)setWeatherModel:(weatherModel *)WeatherModel{
+     //设置数据
+    _WeatherModel=WeatherModel;
+
+}
+
+
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     self=[super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        
-        
-        [[NSBundle mainBundle]loadNibNamed:@"weatherCell" owner:self options:nil];
-        
-        [self.contentView addSubview:_weatherView];
-        
-        
+
         
     }
     
@@ -33,36 +41,37 @@
     
     return self;
 }
-
+-(void)setIsToday:(NSString*)isToday date:(NSString*)date weatherType:(NSString*)weatherType weatherData:(NSString*)weatherData{
+    
+    _isToday.text=isToday;
+    _date.text=date;
+    _weatherType.text=weatherType;
+    _weatherData.text=weatherData;
+    
+}
 
 -(void)layoutSubviews{
     
-    [_weatherView mas_makeConstraints:^(MASConstraintMaker *make) {
-        
-        make.edges.equalTo(self.contentView).with.insets(UIEdgeInsetsMake(5, 5, 5, 5));
-        
-        
-        
-        
-    }];
-    
-    
-
-
-
 
 }
 
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    // Initialization code
+    
 }
+
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
 }
++(id)cell{
+    
+    
+    return [[NSBundle mainBundle]loadNibNamed:@"weatherCell"owner:nil options:nil][0];
+    
 
+}
 @end

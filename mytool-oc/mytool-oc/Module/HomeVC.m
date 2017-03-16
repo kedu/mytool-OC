@@ -10,6 +10,11 @@
 #import <SDCycleScrollView.h>
 #import "testCell.h"
 #import "weatherCell.h"
+#import "MJExtension.h"
+#import "weatherModel.h"
+#import "yesterdayModel.h"
+#import "forecastModel.h"
+#import "NSString+num.h"
 
 #define kLoopViewHeight 200
 
@@ -20,8 +25,10 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *collectViewHeight;
 @property (weak, nonatomic) IBOutlet UITableView *weatherView;
 @property (weak, nonatomic) IBOutlet UITableView *newsView;
-@property(nonatomic,strong)NSArray*weatherArray;
+@property(nonatomic,strong)NSMutableArray*weatherArray;
 @property(nonatomic,strong)NSDictionary*weatherDict;
+@property(nonatomic,strong)weatherModel*weatherDataModel;
+@property(nonatomic,strong)forecastModel*forecastModel;
 
 @end
 
@@ -29,7 +36,7 @@
 
 -(NSArray*)weatherArray{
     if (_weatherArray==nil) {
-        _weatherArray=[NSArray array];
+        _weatherArray=[NSMutableArray array];
     }
     return _weatherArray;
 }
@@ -42,6 +49,14 @@
     return _weatherDict;
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+   //开启新线程
+//    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        [self getData];
+//    });
+    
+
+}
 
 - (void)viewDidLoad {
     
@@ -53,7 +68,7 @@
     self.newsView.dataSource=self;
 
     [self setLoop];
-    [self getData];
+   
     [self setWeather];
     [self setNews];
 }
@@ -82,7 +97,18 @@
    [LKBAFN GET:url_last parameters:nil success:^(id responseObject) {
        NSDictionary*dic=[NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
        _weatherDict=dic;
-//       NSLog(@"%@",_weatherDict);
+       
+    weatherModel*weatherDataModel=[weatherModel mj_objectWithKeyValues:dic[@"data"]];
+       self.weatherDataModel=weatherDataModel;
+       
+       
+       
+       
+//       dispatch_sync(dispatch_get_main_queue(), ^(){
+       
+           [self.weatherView reloadData];
+
+//       });
        
        
    } failure:^(NSError *error) {
@@ -127,7 +153,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if (tableView==self.weatherView) {
-        return 100;
+        return _weatherDataModel.forecast.count;
     }
     if (tableView==self.newsView) {
         return 100;
@@ -141,13 +167,63 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (tableView==self.weatherView) {
         static NSString* reuseID=@"weatherCell";
-        UITableViewCell*cell=[tableView dequeueReusableCellWithIdentifier:reuseID];
+        
+       
+        //UINib *cellNib = [UINib nibWithNibName:reuseID bundle:nil];
+      
+       // [tableView registerNib:cellNib forCellReuseIdentifier:reuseID];
+        
+        
+        
+        weatherCell*cell=[tableView dequeueReusableCellWithIdentifier:reuseID];
+        _forecastModel=_weatherDataModel.forecast[indexPath.row];
+        
+        
         if (cell==nil) {
-//            cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseID];
-            cell=[[weatherCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseID];
-                        
+            
+            cell=[weatherCell cell];
+
             
         }
+        NSCalendar*calendar=[NSCalendar currentCalendar];
+        int unit = kCFCalendarUnitWeekday;
+        
+        // 1.获得当前时间的年月日
+        NSDateComponents *nowCmps = [calendar components:unit fromDate:[NSDate date]];
+        NSString*tmp=[NSString translationchineseStr: [NSString stringWithFormat:@"%ld",nowCmps.weekday-1] ];
+        NSString*weekdayStr=[NSString stringWithFormat:@"星期%@",tmp];
+        
+        switch (indexPath.row) {
+            case 0:{
+                NSString*weatherData=[NSString stringWithFormat:@"%@ ℃",_weatherDataModel.wendu];
+                
+                [cell setIsToday:@"今天" date: weekdayStr  weatherType:@"当前温度:"  weatherData: weatherData ];
+                
+                
+            }
+                return cell;
+                break;
+
+            case 1:
+                break;
+                
+            case 2:
+                
+                break;
+            case 3:
+                
+                break;
+            case 4:
+                
+                break;
+            case 5:
+                
+                break;
+                
+            default:
+                break;
+        }
+         [cell setIsToday:_forecastModel.date date:_forecastModel.type weatherType:nil weatherData:[NSString stringWithFormat:@"%@%@",_forecastModel.high,_forecastModel.low]];
         
         return cell;
     }
@@ -164,7 +240,11 @@
     static NSString* otherID=@"otherCell";
     UITableViewCell*cell=[tableView dequeueReusableCellWithIdentifier:otherID];
     if (cell==nil) {
+        
         cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:otherID];
+       
+        
+        
     }
     
     return cell;
@@ -174,12 +254,7 @@
 
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    if (tableView==self.weatherView) {
-        return 100;
-    }
-    if (tableView==self.newsView) {
-        return 100;
-    }
+
 
     return 1;
 
